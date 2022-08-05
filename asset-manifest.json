@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/softliee/static/css/main.9f9f8bb4.css",
+    "main.js": "/softliee/static/js/main.bc2c8fad.js",
+    "static/js/787.d5ca679e.chunk.js": "/softliee/static/js/787.d5ca679e.chunk.js",
+    "static/media/mobile2.svg": "/softliee/static/media/mobile2.5db9a81e021e6c16a32491806ac1ca6e.svg",
+    "static/media/slide-3.svg": "/softliee/static/media/slide-3.784bd7f0d9f1f63cba4bd78b9efb7da8.svg",
+    "static/media/app.svg": "/softliee/static/media/app.f94301c9f0b3bf3af570a4d4177d531d.svg",
+    "static/media/mobile1.svg": "/softliee/static/media/mobile1.10805b1c6f5ccccc83b833a112b0ea8a.svg",
+    "static/media/pak.svg": "/softliee/static/media/pak.dd58207ba981605a18c3c7191092c3ad.svg",
+    "static/media/mobile3.svg": "/softliee/static/media/mobile3.ab0a01ea1d43469a090f9229351dbf6a.svg",
+    "static/media/logo.svg": "/softliee/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/ic_login.svg": "/softliee/static/media/ic_login.8b9e7f777df098363ab47fb421bccff0.svg",
+    "static/media/ic_home.svg": "/softliee/static/media/ic_home.a377cc699b8057e1d87b4e33aa264e9d.svg",
+    "static/media/pinterest.svg": "/softliee/static/media/pinterest.432555904744229abf84d5b3cab7bf22.svg",
+    "static/media/pintrest-f.svg": "/softliee/static/media/pintrest-f.e1812bf01cb0fa16bc0538415edac80c.svg",
+    "static/media/Vector.svg": "/softliee/static/media/Vector.c863de6f56a36f8bca118168a7f7822c.svg",
+    "index.html": "/softliee/index.html",
+    "static/media/linkinden-f.svg": "/softliee/static/media/linkinden-f.b6f841608868488cf57780d0bdf78761.svg",
+    "static/media/linkedin.svg": "/softliee/static/media/linkedin.d42886860957ce9292570f486f486767.svg",
+    "static/media/wifi.svg": "/softliee/static/media/wifi.24274694a880ce30f73b09279c1ca681.svg",
+    "static/media/facebook.svg": "/softliee/static/media/facebook.20f75b56abcc1a8c534775a6aebd2b10.svg",
+    "static/media/facebook-f.svg": "/softliee/static/media/facebook-f.867447e2015641728e7f8213ed2bb5ce.svg",
+    "static/media/youtube.svg": "/softliee/static/media/youtube.4b512f5a830e23e53afef473761ac33e.svg",
+    "static/media/youtube-f.svg": "/softliee/static/media/youtube-f.46c240bfd1e49f919b70f1a3bf8c1f0d.svg",
+    "static/media/leftarrow.svg": "/softliee/static/media/leftarrow.04d02401ab5e82e60021.svg",
+    "static/media/brand-arrow.svg": "/softliee/static/media/brand-arrow.8bfe5b35fb8bfb30b7ad52a3b88d5ecf.svg",
+    "static/media/Vector2.svg": "/softliee/static/media/Vector2.673ddc342c3a7c5f6f4a45d3a31a44c9.svg",
+    "static/media/list-style.svg": "/softliee/static/media/list-style.3f061295fcc669de4221.svg",
+    "main.9f9f8bb4.css.map": "/softliee/static/css/main.9f9f8bb4.css.map",
+    "main.bc2c8fad.js.map": "/softliee/static/js/main.bc2c8fad.js.map",
+    "787.d5ca679e.chunk.js.map": "/softliee/static/js/787.d5ca679e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f9f8bb4.css",
+    "static/js/main.bc2c8fad.js"
+  ]
+}
