@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/softliee/static/css/main.9f9f8bb4.css",
-    "main.js": "/softliee/static/js/main.9c1868e0.js",
+    "main.css": "/softliee/static/css/main.9375850b.css",
+    "main.js": "/softliee/static/js/main.628d9c7d.js",
     "static/js/787.d5ca679e.chunk.js": "/softliee/static/js/787.d5ca679e.chunk.js",
     "static/media/mobile2.svg": "/softliee/static/media/mobile2.5db9a81e021e6c16a32491806ac1ca6e.svg",
     "static/media/slide-3.svg": "/softliee/static/media/slide-3.784bd7f0d9f1f63cba4bd78b9efb7da8.svg",
@@ -27,12 +27,12 @@
     "static/media/brand-arrow.svg": "/softliee/static/media/brand-arrow.8bfe5b35fb8bfb30b7ad52a3b88d5ecf.svg",
     "static/media/Vector2.svg": "/softliee/static/media/Vector2.673ddc342c3a7c5f6f4a45d3a31a44c9.svg",
     "static/media/list-style.svg": "/softliee/static/media/list-style.3f061295fcc669de4221.svg",
-    "main.9f9f8bb4.css.map": "/softliee/static/css/main.9f9f8bb4.css.map",
-    "main.9c1868e0.js.map": "/softliee/static/js/main.9c1868e0.js.map",
+    "main.9375850b.css.map": "/softliee/static/css/main.9375850b.css.map",
+    "main.628d9c7d.js.map": "/softliee/static/js/main.628d9c7d.js.map",
     "787.d5ca679e.chunk.js.map": "/softliee/static/js/787.d5ca679e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f9f8bb4.css",
-    "static/js/main.9c1868e0.js"
+    "static/css/main.9375850b.css",
+    "static/js/main.628d9c7d.js"
   ]
 }

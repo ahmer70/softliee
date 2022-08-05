@@ -38,17 +38,7 @@ let path = window.location.pathname
 function App() {
   return (
     <>
-      {/* <ul className="divide-y divide-gray-200">
-        {people.map((person) => (
-          <li key={person.email} className="py-4 flex">
-            <img className="h-10 w-10 rounded-full" src={person.image} alt="" />
-            <div className="ml-3">
-              <p className="text-sm font-medium text-gray-900">{person.name}</p>
-              <p className="text-sm text-gray-500">{person.email}</p>
-            </div>
-          </li>
-        ))}
-      </ul> */}
+
 
       <Router>
         <div>
@@ -57,11 +47,12 @@ function App() {
 
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
-          <Routes>
+          <HomePage />
+          {/* <Routes>
             <Route exact path="/" element={<HomePage />} />
             <Route exact path="/product_page" element={<HomePage />} />
 
-          </Routes>
+          </Routes> */}
           <div className='' style={{ backgroundColor: "black" }}>
             {path === '/' && <>
               <div className='mx-auto mt-2' style={{ width: "1360px" }}>
