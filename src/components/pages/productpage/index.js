@@ -1,5 +1,9 @@
 import React from 'react'
 import Mobile3 from '../../../assests/mobile3.svg'
+import './index.css'
+import Brandarrow from '../../../assests/brand-arrow.svg'
+import view_tube from '../../../assests/view_tube.svg'
+
 const ProductPage = () => {
     let title = {
         fontWeight: 600,
@@ -33,9 +37,9 @@ const ProductPage = () => {
                 <p style={{ fontSize: "22px", fontWeight: 400 }}>Ad Placement</p>
             </div>
 
-            <div className='border ' style={{ height: "649px" }}>
-                <div className='p-2 mt-4' style={{ width: "538px" }}>
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div className='border mt-5 d-flex ' style={{ height: "649px" }}>
+                <div className='p-2 mt-4 ' style={{ width: "538px" }}>
+                    <div id="carouselExampleIndicators " class="carousel slide " data-bs-ride="true">
 
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -71,6 +75,45 @@ const ProductPage = () => {
                         </div>
                     </div>
                     {/* <img src={Mobile3} alt="Mobile3" style={{ width: "44px", height: "44px" }} /> */}
+                    <div className='text-center mt-5 '>
+                        <p className='pp_overviewtitle'>Infinix Note 12 G96</p>
+                        <p className='pp_price'>Rs. 36,999</p>
+                        <p className='pp_ds'>Discontinued</p>
+
+                    </div>
+                    <div className='pp_main'>
+                        <p className='pp_by'>9/88</p>
+                        <p className='pp_by'>9/88</p>
+                        <p className='pp_by'>9/88</p>
+                    </div>
+                    <div className='pp_bottom'>
+                        <div className='pp_b_sub '>
+                            <p className="text-dark" style={{ fontSize: "22px", fontWeight: 700 }}>Pictures</p>
+
+                            <img src={Brandarrow} alt="" width={18} height={18} />
+                        </div>
+                        <div className='pp_b_sub '>
+                            <p className="text-dark" style={{ fontSize: "22px", fontWeight: 700 }}>Compare</p>
+
+                            <img src={Brandarrow} alt="" width={18} height={18} />
+                        </div>
+                        <div className='pp_b_sub '>
+                            <p className="text-dark" style={{ fontSize: "22px", fontWeight: 700 }}>Opinions</p>
+
+                            <img src={Brandarrow} alt="" width={18} height={18} />
+                        </div>
+                    </div>
+                </div>
+                <div></div>
+
+                <div className='' style={{ width: "822px", borderLeft: "1px solid #d9dadd" }}>
+                    <div className='pp_overview'>
+                        <p>OverView</p>
+                        <div>
+                            <p className='text-white'>Watch Video </p>
+                            <img src={view_tube} alt="view_tube" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

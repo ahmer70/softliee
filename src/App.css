@@ -142,7 +142,7 @@
   padding: 26px 14px;
   gap: 16px;
 
-  width: 78.38px;
+  width: fit-content;
   height: 53px;
 
   /* Pure White Style */
@@ -200,28 +200,22 @@
 
 .brand {
   box-sizing: border-box;
-
-  /* Auto layout */
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0px 10px 18px;
+  padding: 8px 20px;
   gap: 10px;
   margin: 11px 4px;
-  width: 177.33px;
+  width: 210px;
+  height: -moz-fit-content;
   height: fit-content;
-
-  /* Stroke Style */
-
   border-left: 1px solid #d9dadd;
-
-  /* Inside auto layout */
-
   flex: none;
-
   flex-grow: 1;
+}
+.brand:nth-child(3n + 0) {
+  margin: 11px 16px !important;
 }
 /* product page */
 
@@ -318,4 +312,13 @@
   flex: none;
   order: 2;
   flex-grow: 0;
+}
+
+.right-border {
+  border-left: 3px solid red;
+}
+
+.w22-700 {
+  font-weight: 700;
+  font-size: 22px;
 }

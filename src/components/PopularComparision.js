@@ -8,7 +8,7 @@ const PopularComparision = () => {
         <div className="my-3">
             <div className='d-flex justify-content-between my-3 px-2'>
                 <div>
-                    <p className='border-start border-danger ps-2' style={{ fontSize: "26px ", fontWeight: "bold" }}>Popular Comparision</p>
+                    <p className='right-border ps-2' style={{ fontSize: "26px ", fontWeight: "bold" }}>Popular Comparision</p>
 
                 </div>
                 <div>
@@ -19,51 +19,60 @@ const PopularComparision = () => {
 
             </div>
 
-            <div className='pc m-0 mt-5'>
-                <div className='  ' style={{ width: "438.67px" }}>
+            <div className='pc row m-0 mt-5'>
+                <div className=' col-4  ' style={{ width: "438.67px" }}>
                     <div className=' border p-4' >
                         <div className='d-flex justify-content-between'>
                             <div className="">
-                                <img src={Mobile1} alt="Mobile1" style={{ width: "185px", height: "120px" }} />
+                                <img src={Mobile1} alt="Mobile1" style={{ width: "160px", height: "120px" }} />
+                                <p className='w22-700 text-center'>Oppo A53</p>
                             </div>
                             <div style={{ borderLeft: "2px dashed #262626 " }}></div>
                             <div className="">
                                 <img src={Mobile1} alt="Mobile1" style={{ width: "185px", height: "120px" }} />
+                                <p className='w22-700 text-center'>Infinix Hot 8</p>
                             </div>
                         </div>
-                        <div className='d-flex justify-content-center text-white mt-2 align-items-center mx-auto text-center' style={{ height: "55px", width: "300px", backgroundColor: "#4958EF" }}>
+
+                        <div className='d-flex justify-content-center text-white mt-2 align-items-center mx-auto text-center' style={{ height: "55px", width: "318px", backgroundColor: "#4958EF" }}>
                             <button type='button' style={{ fontSize: "20px ", fontWeight: 600 }}>Compare</button>
                         </div>
                     </div>
                 </div>
-                <div className=' ' style={{ width: "438.67px" }}>
+                <div className=' col-4 ' style={{ width: "438.67px" }}>
                     <div className=' border p-4' >
                         <div className='d-flex justify-content-between'>
                             <div className="">
-                                <img src={Mobile1} alt="Mobile1" style={{ width: "185px", height: "120px" }} />
+                                <img src={Mobile1} alt="Mobile1" style={{ width: "160px", height: "120px" }} />
+                                <p className='w22-700 text-center'>Oppo A53</p>
                             </div>
                             <div style={{ borderLeft: "2px dashed #262626 " }}></div>
                             <div className="">
                                 <img src={Mobile1} alt="Mobile1" style={{ width: "185px", height: "120px" }} />
+                                <p className='w22-700 text-center'>Infinix Hot 8</p>
                             </div>
                         </div>
-                        <div className='d-flex justify-content-center text-white mt-2 align-items-center mx-auto text-center' style={{ height: "55px", width: "300px", backgroundColor: "#4958EF" }}>
+
+                        <div className='d-flex justify-content-center text-white mt-2 align-items-center mx-auto text-center' style={{ height: "55px", width: "318px", backgroundColor: "#4958EF" }}>
                             <button type='button' style={{ fontSize: "20px ", fontWeight: 600 }}>Compare</button>
                         </div>
                     </div>
                 </div>
-                <div className=' ' style={{ width: "438.67px" }}>
+                <div className='col-4  ' style={{ width: "438.67px" }}>
                     <div className=' border p-4' >
                         <div className='d-flex justify-content-between'>
                             <div className="">
-                                <img src={Mobile1} alt="Mobile1" style={{ width: "185px", height: "120px" }} />
+                                <img src={Mobile1} alt="Mobile1" style={{ width: "160px", height: "120px" }} />
+                                <p className='w22-700 text-center'>Oppo A53</p>
                             </div>
                             <div style={{ borderLeft: "2px dashed #262626 " }}></div>
                             <div className="">
                                 <img src={Mobile1} alt="Mobile1" style={{ width: "185px", height: "120px" }} />
+                                <p className='w22-700 text-center'>Infinix Hot 8</p>
                             </div>
                         </div>
-                        <div className='d-flex justify-content-center text-white mt-2 align-items-center mx-auto text-center' style={{ height: "55px", width: "300px", backgroundColor: "#4958EF" }}>
+
+                        <div className='d-flex justify-content-center text-white mt-2 align-items-center mx-auto text-center' style={{ height: "55px", width: "318px", backgroundColor: "#4958EF" }}>
                             <button type='button' style={{ fontSize: "20px ", fontWeight: 600 }}>Compare</button>
                         </div>
                     </div>

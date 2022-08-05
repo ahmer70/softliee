@@ -38,7 +38,7 @@ const PopularMobiles = () => {
         <div className="mt-3">
             <div className='d-flex justify-content-between my-3 px-2'>
                 <div>
-                    <p className='border-start border-danger ps-2' style={{ fontSize: "26px ", fontWeight: "bold" }}>Popular Mobiles</p>
+                    <p className='right-border  ps-2' style={{ fontSize: "26px ", fontWeight: "bold" }}>Popular Mobiles</p>
 
                 </div>
                 <div>
@@ -51,14 +51,14 @@ const PopularMobiles = () => {
 
             <div className='row m-0'>
                 {list.map((e) => <>
-                    <div className='col-md-3 p-2  '>
+                    <div className='col-3 p-2  '>
                         <div className='lItem  latest_mobile  mx-auto text-center' >
 
                             <img src={e.image} className="mx-auto" alt="image" width={200} height={200} />
 
                             <p className='LTitle'>{e.name}</p>
                             <div className='lCompare mx-auto'>
-                                <p className='  text-white text-center align-item-center' style={{ fontSize: "20", fontWeight: 600 }} >Compare +</p>
+                                <p className='  text-white text-center align-item-center' style={{ fontSize: "20px", fontWeight: 600 }} >Compare +</p>
                             </div>
 
 

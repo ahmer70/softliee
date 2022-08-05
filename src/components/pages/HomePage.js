@@ -1,16 +1,12 @@
 import React from 'react'
-import Navbar from './../Navbar';
-import SubNav from './../SubNav';
 import Slider from './../Slider';
-import MobileRange from './../MobileRange';
 import FindMobile from './../FindMobile';
 import Brand from './../Brand';
 import LatestMobile from './../LatestMobile';
 import PopularMobiles from './../PopularMobiles';
 import PopularComparision from './../PopularComparision';
 import TechNews from './../TechNews';
-import Footer from '../Footer';
-import NewsLetter from './../NewsLetter';
+
 
 
 const HomePage = () => {
@@ -19,17 +15,21 @@ const HomePage = () => {
 
             <div className='mx-auto mt-2' style={{ width: "1360px", height: "790px" }}>
                 <Slider />
-                <div className='d-flex justify-content-between  my-4' >
-                    <div className='' style={{ width: "800px", height: "484px" }}>
+                <div className='row my-4 ' >
+                    <div className='col-sm-6 col-12' >
                         <FindMobile />
                     </div>
-                    <div style={{ width: "560px", height: "484px" }}>
+                    <div className='col-sm-6 ps-4  col-12 position-relative'  >
+                        <div className='position-absolute' style={{ right: "-23px" }}>
+
+                        </div>
                         <Brand />
                     </div>
 
                 </div>
             </div>
-            <div className='row mx-0 mb-5 align-items-center' style={{ height: "140px", marginTop: "50px", backgroundColor: "#EDEEFD" }}>
+
+            <div className='row mx-0 my-5 align-items-center' style={{ height: "140px", backgroundColor: "#EDEEFD" }}>
                 <div className='text-center mx-auto d-flex justify-content-center align-items-center' style={{ width: "1360px", height: "90px", backgroundColor: "white" }}>
                     <h4 className=' align-items-center' style={{ fontSize: "22px" }}>Ad Placement</h4>
                 </div>

@@ -80,8 +80,8 @@ const MobileRange = () => {
                 >
                     <div>
                         <div className="mb-3 row">
-                            <label for="inputrange1" className="col-sm-2 col-form-label">Rs</label>
-                            <div className="col-sm-10">
+                            <label for="inputrange1" className="col-2 col-form-label">Rs</label>
+                            <div className="col-10">
                                 <input type="text" value={val2[0]} className="form-control p-2" id="inputrange1" />
                             </div>
                         </div>
@@ -89,8 +89,8 @@ const MobileRange = () => {
                     <p style={{ fontSize: "24px", marginTop: "-25px", color: "rgb(73, 88, 239)", fontWeight: "bold" }}>To</p>
                     <div>
                         <div className="mb-3 row">
-                            <label for="inputrange2" className="col-sm-2 col-form-label">Rs</label>
-                            <div className="col-sm-10">
+                            <label for="inputrange2" className="col-2 col-form-label">Rs</label>
+                            <div className="col-10">
                                 <input type="text" value={val2[1]} className="form-control p-2" id="inputrange2" />
                             </div>
                         </div>

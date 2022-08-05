@@ -7,9 +7,8 @@ const Brand = () => {
 
     return (
         <div className="my-2 position-relative">
-            <p className='border-start border-danger ps-2' style={{ fontSize: "26px ", marginLeft: "3px", fontWeight: "bold" }}>By Brand</p>
+            <p className='right-border ps-2 ' style={{ fontSize: "26px ", marginLeft: "3px", fontWeight: "bold" }}>By Brand</p>
             <div className='mt-2  ' >
-
                 {brands.map(e =>
                     <div className='' style={{ display: "inline-flex" }}  >
                         <div className='brand'>

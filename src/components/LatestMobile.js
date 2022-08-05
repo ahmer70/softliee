@@ -91,17 +91,17 @@ const LatestMobile = () => {
 
     return (
         <div className="my-2">
-            <p className='border-start border-danger my-3 px-2' style={{ fontSize: "26px ", fontWeight: "bold" }}>Latest Mobile</p>
+            <p className='right-border my-3 px-2' style={{ fontSize: "26px ", fontWeight: "bold" }}>Latest Mobile</p>
             <div className='row m-0'>
                 {list.map((e) => <>
-                    <div className='col-md-3 p-2  '>
+                    <div className='col-3  p-2  '>
                         <div className='lItem  latest_mobile  mx-auto text-center' >
 
                             <img src={e.image} className="mx-auto" alt="image" width={200} height={200} />
 
                             <p className='LTitle'>{e.name}</p>
                             <div className='lCompare mx-auto'>
-                                <p className='  text-white text-center align-item-center' style={{ fontSize: "20", fontWeight: 600 }} >Compare +</p>
+                                <p className='  text-white text-center align-item-center' style={{ fontSize: "20px", fontWeight: 600 }} >Compare +</p>
                             </div>
 
 

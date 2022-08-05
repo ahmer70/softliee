@@ -39,7 +39,7 @@ const TechNews = () => {
         <div className="my-3">
             <div className='d-flex justify-content-between my-3 px-2'>
                 <div>
-                    <p className='border-start border-danger ps-2' style={{ fontSize: "26px ", fontWeight: "bold" }}>Tech News</p>
+                    <p className='right-border ms-1 ps-2' style={{ fontSize: "26px ", fontWeight: "bold" }}>Tech News</p>
 
                 </div>
                 <div>
@@ -54,10 +54,10 @@ const TechNews = () => {
                 {list.map((e) => <div className="col-6 ">
                     <div className="card mb-3 p-3" >
                         <div className="row g-0">
-                            <div className="col-md-4">
+                            <div className="col-sm-4">
                                 <img src={e.image} className="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div className="col-md-8">
+                            <div className="col-sm-8">
                                 <div className="card-body">
                                     <h5 className="card-title" style={{ fontSize: "22px", fontWight: "bold" }}>{e.title}</h5>
                                     <p className="card-text"><small className="text-muted"><a href="/" className='text-danger text-decoration-underline' style={{ fontSize: "20px" }}>Read More</a></small></p>
