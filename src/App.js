@@ -47,11 +47,11 @@ function App() {
           <HomePage />
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
-          <Routes>
+          {/* <Routes>
             <Route exact path="/" element={<HomePage />} />
             <Route exact path="/product_page" element={<ProductPage />} />
 
-          </Routes>
+          </Routes> */}
           <div className='' style={{ backgroundColor: "black" }}>
             {path === '/' && <>
               <div className='mx-auto mt-2' style={{ width: "1360px" }}>
