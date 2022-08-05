@@ -1,0 +1,126 @@
+import React from 'react'
+import Mobile1 from '../assests/mobile1.svg'
+import Brandarrow from '../assests/Vector2.svg'
+const LatestMobile = () => {
+    let list = [
+        {
+            image: Mobile1,
+            name: "Infinix Note 12 G96",
+            spec: '6.7" | 8/128 GB | 5000 mAh',
+            price: "36,999",
+
+        },
+        {
+            image: Mobile1,
+            name: "Infinix Note 12 G96",
+            spec: '6.7" | 8/128 GB | 5000 mAh',
+            price: "36,999",
+
+        }, {
+            image: Mobile1,
+            name: "Infinix Note 12 G96",
+            spec: '6.7" | 8/128 GB | 5000 mAh',
+            price: "36,999",
+
+        },
+        {
+            image: Mobile1,
+            name: "Infinix Note 12 G96",
+            spec: '6.7" | 8/128 GB | 5000 mAh',
+            price: "36,999",
+
+        },
+        {
+            image: Mobile1,
+            name: "Infinix Note 12 G96",
+            spec: '6.7" | 8/128 GB | 5000 mAh',
+            price: "36,999",
+
+        },
+        {
+            image: Mobile1,
+            name: "Infinix Note 12 G96",
+            spec: '6.7" | 8/128 GB | 5000 mAh',
+            price: "36,999",
+
+        },
+        {
+            image: Mobile1,
+            name: "Infinix Note 12 G96",
+            spec: '6.7" | 8/128 GB | 5000 mAh',
+            price: "36,999",
+
+        },
+        {
+            image: Mobile1,
+            name: "Infinix Note 12 G96",
+            spec: '6.7" | 8/128 GB | 5000 mAh',
+            price: "36,999",
+
+        }, {
+            image: Mobile1,
+            name: "Infinix Note 12 G96",
+            spec: '6.7" | 8/128 GB | 5000 mAh',
+            price: "36,999",
+
+        }
+        ,
+        {
+            image: Mobile1,
+            name: "Infinix Note 12 G96",
+            spec: '6.7" | 8/128 GB | 5000 mAh',
+            price: "36,999",
+
+        },
+        {
+            image: Mobile1,
+            name: "Infinix Note 12 G96",
+            spec: '6.7" | 8/128 GB | 5000 mAh',
+            price: "36,999",
+
+        },
+        {
+            image: Mobile1,
+            name: "Infinix Note 12 G96",
+            spec: '6.7" | 8/128 GB | 5000 mAh',
+            price: "36,999",
+
+        }
+    ]
+
+
+    return (
+        <div className="my-2">
+            <p className='border-start border-danger my-3 px-2' style={{ fontSize: "26px ", fontWeight: "bold" }}>Latest Mobile</p>
+            <div className='row m-0'>
+                {list.map((e) => <>
+                    <div className='col-md-3 p-2  '>
+                        <div className='lItem  latest_mobile  mx-auto text-center' >
+
+                            <img src={e.image} className="mx-auto" alt="image" width={200} height={200} />
+
+                            <p className='LTitle'>{e.name}</p>
+                            <div className='lCompare mx-auto'>
+                                <p className='  text-white text-center align-item-center' style={{ fontSize: "20", fontWeight: 600 }} >Compare +</p>
+                            </div>
+
+
+                            <div style={{ paddingTop: "6px" }}>
+                                <p className='text-muted' style={{ fontSize: "18px", }}>{e.spec}</p>
+
+                                <p style={{ fontSize: "26px", fontWeight: "bold", color: "#262626" }}>Rs. {e.price}</p>
+                            </div>
+                        </div>
+                    </div>
+                </>)}
+
+            </div>
+            <div className='d-flex  align-items-center justify-content-center shadow' style={{ height: "70px", marginTop: "30px", backgroundColor: "#F8F8F9" }}>
+                <p style={{ fontSize: "18px", fontWeight: 600 }}>Load More</p> <img src={Brandarrow} className="align-items-center ms-2 mt-1" alt="Brandarrow" style={{ height: "fit-content", width: "8px" }} />
+            </div>
+
+        </div>
+    )
+}
+
+export default LatestMobile
