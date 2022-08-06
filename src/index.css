@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+.mobile-mode-off {
+  display: none;
+}
+.nlwidth {
+  width: 700px;
+}
+@media screen and (max-width: 992px) {
+  .tablet-mode {
+    display: none;
+  }
+  .fb {
+    display: block !important;
+    margin-left: 20px !important;
+  }
+  .mobile-mode-off {
+    display: contents;
+  }
+  .nlwidth {
+    width: fit-content;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .mobile-mode-on {
+    display: none;
+  }
+}

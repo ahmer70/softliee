@@ -46,21 +46,21 @@ const useStyles = makeStyles(
 const MobileRange = () => {
     const [val, setVal] = React.useState({ min: 0, max: 100 });
 
-    const [val2, setVal2] = React.useState([0, 100]);
+    const [val2, setVal2] = React.useState([1000, 35000]);
 
     const classes = useStyles();
 
     return (
-        <div className="App  " style={{ width: "98%", padding: "0 9px" }}>
+        <div className="App  " >
 
             <div>
-                <div>
+                <div className="my-4" style={{ width: "98%", padding: "0 9px" }}>
                     <Slider
                         //disabled
                         classes={classes}
                         step={5}
-                        min={0}
-                        max={100}
+                        min={1000}
+                        max={35000}
                         value={val2}
                         onChange={(ev, v) => setVal2(v)}
                         onChangeCommitted={(ev, v) => console.log(v)}
@@ -68,32 +68,28 @@ const MobileRange = () => {
                         aria-labelledby="range-slider"
                     />
                 </div>
-                <div
-                    style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "space-between",
-                        margin: "1rem 0",
-                        fontWeight: 500,
-                        color: "black"
-                    }}
-                >
-                    <div>
-                        <div className="mb-3 row">
-                            <label for="inputrange1" className="col-2 col-form-label">Rs</label>
-                            <div className="col-10">
-                                <input type="text" value={val2[0]} className="form-control p-2" id="inputrange1" />
-                            </div>
+                <div className='d-flex justify-content-between mx-0 mb-4 p-0'>
+                    <div className=" row text-start p-0 m-0">
+                        <div className="col-sm-2 p-0 ">
+                            <label for="inputrange1" className="col-form-label">Rs</label>
                         </div>
+                        <div className="col-sm-10 p-0">
+                            <input type="text" value={val2[0]} className="form-control p-2" id="inputrange1" />
+                        </div>
+
                     </div>
-                    <p style={{ fontSize: "24px", marginTop: "-25px", color: "rgb(73, 88, 239)", fontWeight: "bold" }}>To</p>
-                    <div>
-                        <div className="mb-3 row">
-                            <label for="inputrange2" className="col-2 col-form-label">Rs</label>
-                            <div className="col-10">
-                                <input type="text" value={val2[1]} className="form-control p-2" id="inputrange2" />
-                            </div>
+
+                    <p className="px-3 m-0 d-flex align-items-center" style={{ fontSize: "24px", color: "rgb(73, 88, 239)", fontWeight: "bold" }}>To</p>
+
+
+                    <div className=" row  p-0 m-0 ">
+                        <div className="col-sm-2 p-0 ">
+                            <label for="inputrange1" className="col-form-label">Rs</label>
                         </div>
+                        <div className="col-sm-10 p-0 ">
+                            <input type="text" value={val2[1]} className="form-control w-100 p-2" id="inputrange1" />
+                        </div>
+
                     </div>
                 </div>
 

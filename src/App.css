@@ -13,13 +13,12 @@
 .carousel-control-prev-icon {
   height: 44px;
   width: 44px;
-  background-color: #ffffff81;
   background-image: url("./assests/leftarrow.svg");
 }
 .carousel-control-next-icon {
   height: 44px;
   width: 44px;
-  background-color: #ffffff81;
+  /* background-color: #ffffff81; */
   background-image: url("./assests/leftarrow.svg");
   transform: rotate(180deg);
 }
@@ -31,7 +30,8 @@
   background-color: #212529;
 }
 .footer-menu {
-  width: 1007px;
+  max-width: 1007px;
+
   display: flex;
   justify-content: space-between;
 }
@@ -86,6 +86,8 @@
 
 .submenu > div > a {
   padding: 0px 16px;
+  color: #212529;
+  text-decoration: none;
 }
 .submenu > div > a:first-child,
 .submenu > div > a:nth-child(2),
@@ -207,7 +209,7 @@
   padding: 8px 20px;
   gap: 10px;
   margin: 11px 4px;
-  width: 210px;
+  width: 208px;
   height: -moz-fit-content;
   height: fit-content;
   border-left: 1px solid #d9dadd;
@@ -276,8 +278,6 @@
   padding: 26px 40px;
   gap: 16px;
 
-  width: 323.5px;
-
   /* Pure White Style */
 
   background: #ffffff;
@@ -321,4 +321,18 @@
 .w22-700 {
   font-weight: 700;
   font-size: 22px;
+}
+
+.offcanvas-backdrop {
+  width: 100% !important;
+  height: 100% !important;
+}
+.MuiSlider-track {
+  width: 0% !important;
+}
+a:hover {
+  color: red !important;
+}
+a:active {
+  color: red !important;
 }

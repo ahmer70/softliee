@@ -51,7 +51,7 @@ const PopularMobiles = () => {
 
             <div className='row m-0'>
                 {list.map((e) => <>
-                    <div className='col-3 p-2  '>
+                    <div className='col-lg-3  col-md-4 col-6 p-2  '>
                         <div className='lItem  latest_mobile  mx-auto text-center' >
 
                             <img src={e.image} className="mx-auto" alt="image" width={200} height={200} />

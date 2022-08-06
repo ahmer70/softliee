@@ -94,7 +94,7 @@ const LatestMobile = () => {
             <p className='right-border my-3 px-2' style={{ fontSize: "26px ", fontWeight: "bold" }}>Latest Mobile</p>
             <div className='row m-0'>
                 {list.map((e) => <>
-                    <div className='col-3  p-2  '>
+                    <div className='col-lg-3 col-md-4 col-6 col-6  p-2  '>
                         <div className='lItem  latest_mobile  mx-auto text-center' >
 
                             <img src={e.image} className="mx-auto" alt="image" width={200} height={200} />

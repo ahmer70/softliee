@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { useState, Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import Logo from '../assests/web-logo.png'
@@ -19,16 +19,17 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 const Navbar = () => {
+
     return (
         <>
             <nav className="navbar navbar-expand-lg " style={{ backgroundColor: "#4958EF", height: "86px" }}>
-                <div className="container-fluid" style={{ width: "1360px" }}>
+                <div className="container-fluid" style={{ maxWidth: "1360px" }}>
+
                     <Link className="navbar-brand" to="/">
                         <img src={Logo} alt="" className="d-inline-block align-text-top" style={{ width: "130px", height: "42px" }} />
 
-                    </Link>                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
+                    </Link>
+
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ms-2">
 
@@ -46,7 +47,7 @@ const Navbar = () => {
 
                                 </div>
                             </li>
-                            <li className="nav-item dropdown ms-3 me-4 d-flex justify-content-center rounded-pill bg-white align-items-center" style={{ width: "188px", height: "46px", fontSize: "18px" }}>
+                            <li className="nav-item   dropdown ms-3 me-4 d-flex justify-content-center rounded-pill bg-white align-items-center" style={{ width: "188px", height: "46px", fontSize: "18px" }}>
                                 <img src={PakIcon} alt="PakIcon" width={24} height={18} />
                                 <Link className="nav-link dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Pakistan
@@ -71,7 +72,10 @@ const Navbar = () => {
                         </ul>
                     </div>
                 </div>
+
+
             </nav>
+
         </>
     )
 }

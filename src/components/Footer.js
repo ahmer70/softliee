@@ -13,14 +13,14 @@ const Footer = () => {
 
                 <footer className="py-5">
                     <div className="d-flex  ">
-                        <div className=" mb-3 me-5" style={{ width: "280px" }}>
+                        <div className=" mb-3 me-5 tablet-mode" style={{ width: "280px" }}>
                             <Link to="/" className="d-flex align-items-center mb-3 link-dark text-decoration-none">
                                 <img src={Logo} alt="Logo" />
                             </Link>
                             <p className="text-white">Softliee is an online mobile phone web where you can discover latest and updated mobile prices in Pakistan. Softliee team tries to share proper features and specifications along with mobile prices in Pakistan.</p>
                         </div>
-                        <div className='footer-menu fb m-0' >
-                            <div className=" mb-3 Softliee-f " >
+                        <div className='footer-menu fb ' >
+                            <div className=" mb-3 Softliee-f   " >
                                 <h5 >Softliee</h5>
                                 <ul className="nav flex-column">
                                     <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 ">Our Blog</Link></li>
@@ -51,7 +51,7 @@ const Footer = () => {
                                 </div>
                             </div>
 
-                            <div className=" Sections-f ">
+                            <div className=" Sections-f tablet-mode ">
                                 <h5>Sections</h5>
                                 <ul className="nav flex-column">
                                     <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 ">Trending Mobiles</Link></li>
