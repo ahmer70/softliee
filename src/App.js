@@ -63,7 +63,9 @@ function App() {
 
           </Routes>
           <HomePage />
-          <div className='mx-auto mt-2' style={{ maxWidth: "1360px" }}>
+          <div className='mx-auto mt-2' style={{
+            backgroundColor: "black", maxWidth: "1360px"
+          }}>
             <NewsLetter />
 
 
