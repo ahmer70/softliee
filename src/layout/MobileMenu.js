@@ -136,12 +136,12 @@ const MobileMenu = () => {
                     <div class="accordion border-top accordion-flush" id="accordionFlushExample2">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button ps-2  border-0 bg-transparent d-flex collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                <button class="accordion-button ps-2  border-0 bg-transparent d-flex collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne2" aria-expanded="false" aria-controls="flush-collapseOne">
                                     <img src={PakIcon} className="me-3" alt="BransIcon" />  <p>Pakistan</p>
 
                                 </button>
                             </h2>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample2">
+                            <div id="flush-collapseOne2" class="accordion-collapse collapse" aria-labelledby="flush-headingOne2" data-bs-parent="#accordionFlushExample2">
                                 <div class="accordion-body">
                                     <ul class="list-group border-0">
 
