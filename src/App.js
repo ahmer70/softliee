@@ -63,13 +63,7 @@ function App() {
 
           </Routes>
           <HomePage />
-          <div className='mx-auto mt-2' style={{
-            backgroundColor: "black", maxWidth: "1360px"
-          }}>
-            <NewsLetter />
 
-
-          </div>
           <div className='' style={{ backgroundColor: "black" }}>
             {path === '/' && <>
               <div className='mx-auto mt-2' style={{ maxWidth: "1360px" }}>
