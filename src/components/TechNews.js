@@ -39,12 +39,12 @@ const TechNews = () => {
         <div className="my-3">
             <div className='d-flex justify-content-between my-3 px-2'>
                 <div>
-                    <p className='right-border ms-1 ps-2' style={{ fontSize: "26px ", fontWeight: "bold" }}>Tech News</p>
+                    <p className='right-border ms-1 ps-2 font26 font18' style={{ fontWeight: "bold" }}>Tech News</p>
 
                 </div>
                 <div>
-                    <button type='button' className='d-flex  align-items-center justify-content-center rounded-pill border  px-3' style={{ height: "36px" }} >
-                        <p style={{ fontSize: "18px", fontWeight: 600 }}>See More</p> <img src={Brandarrow} className="align-items-center ms-2 " alt="Brandarrow" style={{ height: "fit-content", width: "8px" }} />
+                    <button type='button' className='d-flex font18 font12  align-items-center justify-content-center rounded-pill border  px-3' style={{ height: "36px" }} >
+                        <p style={{ fontWeight: 600 }}>See More</p> <img src={Brandarrow} className="align-items-center ms-2 " alt="Brandarrow" style={{ height: "fit-content", width: "8px" }} />
                     </button>
                 </div>
 
@@ -59,9 +59,9 @@ const TechNews = () => {
                             </div>
                             <div className="col-8">
                                 <div className="card-body">
-                                    <h5 className="card-title" style={{ fontSize: "22px", fontWight: "bold" }}>{e.title}</h5>
-                                    <p className="card-text"><small className="text-muted"><a href="/" className='text-danger text-decoration-underline' style={{ fontSize: "20px" }}>Read More</a></small></p>
-                                    <p className="card-text text-muted" style={{ fontSize: "18px" }}>{e.time}</p>
+                                    <h5 className="card-title font22 font14" style={{ fontWight: "bold" }}>{e.title}</h5>
+                                    <p className="card-text"><small className="text-muted"><a href="/" className='text-danger text-decoration-underline  font20 font11b' >Read More</a></small></p>
+                                    <p className="card-text text-muted font18t font8b" >{e.time}</p>
                                 </div>
                             </div>
                         </div>

@@ -17,26 +17,7 @@ import ProductPage from './components/pages/productpage';
 import './App.css';
 import './index.css'
 import MobileMenu from './layout/MobileMenu';
-const people = [
-  {
-    name: 'Calvin Hawkins',
-    email: 'calvin.hawkins@example.com',
-    image:
-      'https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-  {
-    name: 'Kristen Ramos',
-    email: 'kristen.ramos@example.com',
-    image:
-      'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-  {
-    name: 'Ted Fox',
-    email: 'ted.fox@example.com',
-    image:
-      'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-]
+
 
 let path = window.location.pathname
 function App() {
@@ -63,8 +44,23 @@ function App() {
 
           </Routes>
           <HomePage />
-
           <div className='' style={{ backgroundColor: "black" }}>
+
+            <div className='mx-auto mt-2' style={{ maxWidth: "1360px" }}>
+              <NewsLetter />
+
+
+            </div>
+            <hr style={{ color: "white", opacity: 1 }} />
+
+            <div className='mx-auto ' style={{ maxWidth: "1360px" }}>
+
+
+              <Footer />
+
+            </div>
+          </div>
+          {/* <div className='' style={{ backgroundColor: "black" }}>
             {path === '/' && <>
               <div className='mx-auto mt-2' style={{ maxWidth: "1360px" }}>
                 <NewsLetter />
@@ -79,7 +75,7 @@ function App() {
               <Footer />
 
             </div>
-          </div>
+          </div> */}
         </div>
       </Router>
 

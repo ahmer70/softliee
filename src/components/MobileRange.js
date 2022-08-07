@@ -54,7 +54,7 @@ const MobileRange = () => {
         <div className="App  " >
 
             <div>
-                <div className="my-4" style={{ width: "98%", padding: "0 9px" }}>
+                <div className="my-4" style={{ width: "95%" }}>
                     <Slider
                         //disabled
                         classes={classes}

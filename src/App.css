@@ -228,7 +228,6 @@
   content: var(--bs-breadcrumb-divider, ">");
 }
 
-
 .cpb {
   box-sizing: border-box;
 
@@ -294,7 +293,7 @@
   padding: 6px 20px;
   gap: 12px;
   margin: 5px 0px;
-  width: 154px;
+  max-width: 154px;
   height: 39px;
 
   background: #4958ef;
@@ -328,4 +327,124 @@ a:hover {
 }
 a:active {
   color: red !important;
+}
+
+.NewsLetter > div > input {
+  border-radius: 50rem;
+}
+
+.NewsLetter > div > span {
+  border-radius: 0px 50px 50px 0px;
+  width: 166px;
+}
+
+.font26 {
+  font-size: "26px";
+}
+.font28 {
+  font-size: "28px";
+}
+.font36 {
+  font-size: "36px";
+}
+.font20 {
+  font-size: "20px";
+}
+.font22 {
+  font-size: 22px;
+}
+.font18t {
+  font-size: 18px;
+}
+.pc-arrange > img {
+  width: 180px;
+  height: 140px;
+}
+.mobile-mode-on2 {
+  display: none;
+}
+.pc-whole {
+  padding: 1.5rem;
+}
+@media screen and (max-width: 500px) {
+  .mobile-mode {
+    display: none;
+  }
+  .mobile-mode2 {
+    display: none !important;
+  }
+  .mobile-mode-on2 {
+    display: contents;
+  }
+  .pc-whole {
+    padding: 0px;
+    margin-bottom: 14px;
+    border-radius: 12px;
+  }
+  .pc-arrange {
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .pc-arrange > img {
+    width: 80px;
+    height: 80px;
+  }
+  .w22-700 {
+    font-size: 16px;
+  }
+  .comparem {
+    width: 10px;
+    background-color: #4958ef;
+    border-radius: 0px 12px 12px 0px;
+    padding: 0px 2px;
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 786px) {
+  .mobile-mode {
+    display: none;
+  }
+  .NewsLetter > div > input {
+    border-radius: 0rem;
+  }
+  .NewsLetter > div > span {
+    border-radius: 0rem;
+    width: 106px;
+  }
+  .ram > div {
+    padding: 18px;
+
+    height: 9px;
+  }
+  .lItem {
+    padding: 10px;
+  }
+  .rma-in {
+    font-size: 12px;
+  }
+  .font16 {
+    font-size: 16px;
+  }
+  .font18 {
+    font-size: 18px;
+  }
+  .font14 {
+    font-size: 14px;
+  }
+
+  .font12 {
+    font-size: 12px;
+  }
+  .font11b {
+    font-size: 11px;
+  }
+  .font8b {
+    font-size: 8px;
+  }
+  .font24 {
+    font-size: 24px;
+  }
 }
