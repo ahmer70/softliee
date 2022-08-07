@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/softliee/static/css/main.7e94eb91.css",
-    "main.js": "/softliee/static/js/main.708a2717.js",
+    "main.css": "/softliee/static/css/main.b5c61218.css",
+    "main.js": "/softliee/static/js/main.9b1becb9.js",
     "static/js/787.d5ca679e.chunk.js": "/softliee/static/js/787.d5ca679e.chunk.js",
     "static/media/mobile2.svg": "/softliee/static/media/mobile2.5db9a81e021e6c16a32491806ac1ca6e.svg",
     "static/media/slide-3.svg": "/softliee/static/media/slide-3.784bd7f0d9f1f63cba4bd78b9efb7da8.svg",
@@ -33,21 +33,23 @@
     "static/media/tanding.svg": "/softliee/static/media/tanding.6e94a5d9cda91cdd008738e62d94b589.svg",
     "static/media/wifi.svg": "/softliee/static/media/wifi.24274694a880ce30f73b09279c1ca681.svg",
     "static/media/mobile-search.svg": "/softliee/static/media/mobile-search.16b281121eda3ec4aa0c0e69d53dc3f3.svg",
+    "static/media/inputsearchicon.svg": "/softliee/static/media/inputsearchicon.5391c238790161a6f122.svg",
     "static/media/facebook.svg": "/softliee/static/media/facebook.20f75b56abcc1a8c534775a6aebd2b10.svg",
     "static/media/facebook-f.svg": "/softliee/static/media/facebook-f.867447e2015641728e7f8213ed2bb5ce.svg",
     "static/media/youtube.svg": "/softliee/static/media/youtube.4b512f5a830e23e53afef473761ac33e.svg",
     "static/media/youtube-f.svg": "/softliee/static/media/youtube-f.46c240bfd1e49f919b70f1a3bf8c1f0d.svg",
     "static/media/leftarrow.svg": "/softliee/static/media/leftarrow.04d02401ab5e82e60021.svg",
     "static/media/brand-arrow.svg": "/softliee/static/media/brand-arrow.8bfe5b35fb8bfb30b7ad52a3b88d5ecf.svg",
+    "static/media/arrowleft.svg": "/softliee/static/media/arrowleft.93995cd2505202e555e7ef37982f3993.svg",
     "static/media/comparearrow.svg": "/softliee/static/media/comparearrow.2312fa5b2bfddefe193ffa3183805241.svg",
     "static/media/Vector2.svg": "/softliee/static/media/Vector2.673ddc342c3a7c5f6f4a45d3a31a44c9.svg",
     "static/media/list-style.svg": "/softliee/static/media/list-style.3f061295fcc669de4221.svg",
-    "main.7e94eb91.css.map": "/softliee/static/css/main.7e94eb91.css.map",
-    "main.708a2717.js.map": "/softliee/static/js/main.708a2717.js.map",
+    "main.b5c61218.css.map": "/softliee/static/css/main.b5c61218.css.map",
+    "main.9b1becb9.js.map": "/softliee/static/js/main.9b1becb9.js.map",
     "787.d5ca679e.chunk.js.map": "/softliee/static/js/787.d5ca679e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e94eb91.css",
-    "static/js/main.708a2717.js"
+    "static/css/main.b5c61218.css",
+    "static/js/main.9b1becb9.js"
   ]
 }

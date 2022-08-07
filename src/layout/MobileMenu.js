@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import Accordion from 'react-bootstrap/Accordion';
-import ListGroup from 'react-bootstrap/ListGroup';
+
 import ListIcon from '../assests/mobile-nav/list.svg'
 
 import BransIcon from '../assests/mobile-nav/top-brands.svg'
@@ -16,8 +15,9 @@ import MenuIcon from '../assests/mobile-nav/Menu.svg'
 import PakIcon from '../assests/pak.svg'
 
 import { Link } from 'react-router-dom'
+import MobileSearch from './MobileSearch';
 const MobileMenu = () => {
-    const [MMenu, setMMenu] = useState(false);
+    const [MMenu, setMMenu] = useState(false), [OpenS, setOpenS] = useState(false);
     const [SM, setSM] = useState(3)
 
     let brands = ['Apple', 'Realme', 'Huawei', 'Samsung', 'Oppo', 'Vivo', 'Infinix', 'Oneplus', 'Itel',
@@ -36,7 +36,7 @@ const MobileMenu = () => {
 
                         </Link>
                         <div className='d-flex'>
-                            <img src={SearchIcon} className="pe-3" alt="SearchIcon" />
+                            <img src={SearchIcon} onClick={() => setOpenS(true)} style={{ cursor: "pointer" }} className="pe-3" alt="SearchIcon" />
                             <img src={LoginIcon} alt="SearchIcon" />
                         </div>
 
@@ -155,6 +155,8 @@ const MobileMenu = () => {
 
                 </Offcanvas.Body>
             </Offcanvas>
+
+            <MobileSearch OpenS={OpenS} setOpenS={(e) => setOpenS(e)} />
         </div>
     )
 }

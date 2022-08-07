@@ -338,6 +338,17 @@ a:active {
   width: 166px;
 }
 
+input.msearch {
+  background: url("./assests//mobile-nav/inputsearchicon.svg");
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position-x: 10px;
+  background-position-y: 8px;
+  padding: 8px 0px 8px 39px;
+  width: 70%;
+  background-size: 24px;
+}
+
 .font26 {
   font-size: "26px";
 }
@@ -387,6 +398,7 @@ a:active {
 .mb-padding {
   padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
+
 @media screen and (max-width: 500px) {
   .mb-mragin {
     margin-bottom: 0px;
