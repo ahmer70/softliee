@@ -423,6 +423,7 @@ input.msearch {
   }
   .label2 {
     display: block;
+    margin-bottom: 14px;
   }
   .mobile-mode {
     display: none;
