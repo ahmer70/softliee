@@ -16,8 +16,8 @@ const HomePage = () => {
 
             <div className='mx-auto mt-2' style={{ maxWidth: "1360px", maxHeight: "790px" }}>
                 <Slider />
-                <div className='row my-4 ' >
-                    <div className='col-lg-6 col-12 p-4' >
+                <div className='row mb-mragin   ' >
+                    <div className='col-lg-6 col-12 mb-padding' >
                         <FindMobile />
                     </div>
                     <div className='col-md-6  tablet-mode col-12 position-relative'  >
@@ -41,7 +41,7 @@ const HomePage = () => {
                 <PopularMobiles />
                 <PopularComparision />
             </div>
-            <Adpalcement />
+
             <div className='mx-auto mt-2' style={{ maxWidth: "1360px" }}>
 
                 <TechNews />

@@ -366,9 +366,46 @@ a:active {
 .pc-whole {
   padding: 1.5rem;
 }
+.tomargin {
+  margin: 0px;
+}
+.label2 {
+  display: none;
+}
+.ram > div:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.ram > div > p:hover {
+  background-color: red;
+  color: white;
+}
+.mb-mragin {
+  margin: 1.5rem 0px;
+}
+.mb-padding {
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
 @media screen and (max-width: 500px) {
+  .mb-mragin {
+    margin-bottom: 0px;
+  }
+  .mb-padding {
+    padding: 1.5rem 1.5rem 0px 1.5rem;
+  }
+  .label1 {
+    display: none;
+  }
+  .label2 {
+    display: block;
+  }
   .mobile-mode {
     display: none;
+  }
+  .tomargin {
+    margin-top: 34px;
+    margin-bottom: 0px;
   }
   .mobile-mode2 {
     display: none !important;

@@ -43,24 +43,9 @@ function App() {
             <Route exact path="/product_page" element={<ProductPage />} />
 
           </Routes>
-          <HomePage />
+
+
           <div className='' style={{ backgroundColor: "black" }}>
-
-            <div className='mx-auto mt-2' style={{ maxWidth: "1360px" }}>
-              <NewsLetter />
-
-
-            </div>
-            <hr style={{ color: "white", opacity: 1 }} />
-
-            <div className='mx-auto ' style={{ maxWidth: "1360px" }}>
-
-
-              <Footer />
-
-            </div>
-          </div>
-          {/* <div className='' style={{ backgroundColor: "black" }}>
             {path === '/' && <>
               <div className='mx-auto mt-2' style={{ maxWidth: "1360px" }}>
                 <NewsLetter />
@@ -75,7 +60,7 @@ function App() {
               <Footer />
 
             </div>
-          </div> */}
+          </div>
         </div>
       </Router>
 

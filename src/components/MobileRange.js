@@ -54,7 +54,7 @@ const MobileRange = () => {
         <div className="App  " >
 
             <div>
-                <div className="my-4" style={{ width: "95%" }}>
+                <div className="my-4 " style={{ width: "95%" }}>
                     <Slider
                         //disabled
                         classes={classes}
@@ -71,7 +71,8 @@ const MobileRange = () => {
                 <div className='d-flex justify-content-between mx-0 mb-4 p-0'>
                     <div className=" row text-start p-0 m-0">
                         <div className="col-sm-2 p-0 ">
-                            <label for="inputrange1" className="col-form-label">Rs</label>
+                            <label for="inputrange1" className="col-form-label label1">Rs </label>
+                            <label for="inputrange1" className="col-form-label label2 ">RS: 0</label>
                         </div>
                         <div className="col-sm-10 p-0">
                             <input type="text" value={val2[0]} className="form-control p-2" id="inputrange1" />
@@ -79,13 +80,16 @@ const MobileRange = () => {
 
                     </div>
 
-                    <p className="px-3 m-0 d-flex align-items-center" style={{ fontSize: "24px", color: "rgb(73, 88, 239)", fontWeight: "bold" }}>To</p>
+                    <p className="px-3 tomargin d-flex align-items-center" style={{ fontSize: "24px", color: "rgb(73, 88, 239)", fontWeight: "bold" }}>To</p>
 
 
                     <div className=" row  p-0 m-0 ">
-                        <div className="col-sm-2 p-0 ">
-                            <label for="inputrange1" className="col-form-label">Rs</label>
+                        <div className="col-sm-2 p-0  ">
+                            <label for="inputrange1" className="col-form-label label1">Rs </label>
+                            <label for="inputrange1" className="col-form-label label2 text-end">RS: 3.5 lac </label>
+
                         </div>
+
                         <div className="col-sm-10 p-0 ">
                             <input type="text" value={val2[1]} className="form-control w-100 p-2" id="inputrange1" />
                         </div>

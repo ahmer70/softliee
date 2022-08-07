@@ -10,7 +10,7 @@ const FindMobile = () => {
                 <MobileRange />
                 <button type='button' className='find-btn ' style={{ backgroundColor: "#4958EF", fontSize: "24px", fontWeight: "bold", height: "68px", color: "white" }}>Find Mobile</button>
                 <div >
-                    <p className='my-3'>Ram</p>
+                    <p className='my-3'>RAM</p>
                     <div className='ram'>
                         {ram.map((e) => <div>
                             <p className=' rma-in ' >{e} GB</p>
