@@ -337,16 +337,19 @@ a:active {
   border-radius: 0px 50px 50px 0px;
   width: 166px;
 }
-
+.ltimg > img {
+  width: 200px;
+  height: 200px;
+}
 input.msearch {
   background: url("./assests//mobile-nav/inputsearchicon.svg");
   background-repeat: no-repeat;
   background-color: white;
   background-position-x: 10px;
-  background-position-y: 8px;
-  padding: 8px 0px 8px 39px;
+  background-position-y: 6px;
+  padding: 5px 0px 4px 39px;
   width: 70%;
-  background-size: 24px;
+  background-size: 20px;
 }
 
 .font26 {
@@ -400,11 +403,20 @@ input.msearch {
 }
 
 @media screen and (max-width: 500px) {
+  .lCompare {
+    width: 100px;
+    padding: 6px 12px;
+    height: 28px;
+  }
+  .pc-arrange > img {
+    width: 68px;
+    height: 65px;
+  }
   .mb-mragin {
     margin-bottom: 0px;
   }
   .mb-padding {
-    padding: 1.5rem 1.5rem 0px 1.5rem;
+    padding: 0px 1rem;
   }
   .label1 {
     display: none;
@@ -415,10 +427,7 @@ input.msearch {
   .mobile-mode {
     display: none;
   }
-  .tomargin {
-    margin-top: 34px;
-    margin-bottom: 0px;
-  }
+
   .mobile-mode2 {
     display: none !important;
   }
@@ -431,15 +440,12 @@ input.msearch {
     border-radius: 12px;
   }
   .pc-arrange {
-    padding: 2px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .pc-arrange > img {
-    width: 80px;
-    height: 80px;
-  }
+
   .w22-700 {
     font-size: 16px;
   }
@@ -453,6 +459,10 @@ input.msearch {
   }
 }
 @media screen and (max-width: 786px) {
+  .ltimg > img {
+    width: 100px;
+    height: 100px;
+  }
   .mobile-mode {
     display: none;
   }
@@ -465,7 +475,7 @@ input.msearch {
   }
   .ram > div {
     padding: 18px;
-
+    border-radius: 0px;
     height: 9px;
   }
   .lItem {

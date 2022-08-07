@@ -27,7 +27,7 @@ const Specifications = () => {
                     <div class="col-md-9">
                         <div class="heading_with_border_left">Specifications</div>
                         <div class="icon_heading_sepecification">
-                            <img src={general} style={{ height: "30px" }} /> <span class="icon_heading_title">General</span>
+                            <img src={general} alt='image_here' style={{ height: "30px" }} /> <span class="icon_heading_title">General</span>
                         </div>
                         <table class="table specification_table">
                             <tr>
@@ -45,7 +45,7 @@ const Specifications = () => {
                         </table>
 
                         <div class="icon_heading_sepecification">
-                            <img src={display} style={{ height: "30px" }} /> <span class="icon_heading_title">Display</span>
+                            <img src={display} alt='image_here' style={{ height: "30px" }} /> <span class="icon_heading_title">Display</span>
                         </div>
                         <table class="table specification_table">
                             <tr>
@@ -65,7 +65,7 @@ const Specifications = () => {
                         <div style={{ padding: "30px 0", background: "#F1F1F2" }} class="text-center">Ad Placement</div>
 
                         <div class="icon_heading_sepecification">
-                            <img src={build} style={{ height: "30px" }} /> <span class="icon_heading_title">Build</span>
+                            <img src={build} alt='image_here' style={{ height: "30px" }} /> <span class="icon_heading_title">Build</span>
                         </div>
                         <table class="table specification_table">
                             <tr>
@@ -96,7 +96,7 @@ const Specifications = () => {
 
 
                         <div class="icon_heading_sepecification">
-                            <img src={network} style={{ height: "30px" }} /> <span class="icon_heading_title">Network</span>
+                            <img src={network} alt='image_here' style={{ height: "30px" }} /> <span class="icon_heading_title">Network</span>
                         </div>
                         <table class="table specification_table">
                             <tr>
@@ -122,7 +122,7 @@ const Specifications = () => {
                         </table>
                         <div style={{ padding: "30px 0", background: "#F1F1F2" }} class="text-center">Ad Placement</div>
                         <div class="icon_heading_sepecification">
-                            <img src={memory} style={{ height: "30px" }} /> <span class="icon_heading_title">Memory</span>
+                            <img src={memory} alt='image_here' style={{ height: "30px" }} /> <span class="icon_heading_title">Memory</span>
                         </div>
                         <table class="table specification_table">
                             <tr>
@@ -141,7 +141,7 @@ const Specifications = () => {
 
 
                         <div class="icon_heading_sepecification">
-                            <img src={camera} style={{ height: "30px" }} /> <span class="icon_heading_title">Camera</span>
+                            <img src={camera} alt='image_here' style={{ height: "30px" }} /> <span class="icon_heading_title">Camera</span>
                         </div>
                         <table class="table specification_table">
                             <tr>
@@ -167,7 +167,7 @@ const Specifications = () => {
                         </table>
                         <div style={{ padding: "30px 0", background: "#F1F1F2" }} class="text-center">Ad Placement</div>
                         <div class="icon_heading_sepecification">
-                            <img src={connectivity} style={{ height: "30px" }} /> <span class="icon_heading_title">Connectivity</span>
+                            <img src={connectivity} alt='image_here' style={{ height: "30px" }} /> <span class="icon_heading_title">Connectivity</span>
                         </div>
                         <table class="table specification_table">
                             <tr>
@@ -202,7 +202,7 @@ const Specifications = () => {
 
 
                         <div class="icon_heading_sepecification">
-                            <img src={featires} style={{ height: "30px" }} /> <span class="icon_heading_title">Features</span>
+                            <img src={featires} alt='image_here' style={{ height: "30px" }} /> <span class="icon_heading_title">Features</span>
                         </div>
                         <table class="table specification_table">
                             <tr>
@@ -236,7 +236,7 @@ const Specifications = () => {
                         </table>
 
                         <div class="icon_heading_sepecification">
-                            <img src={battery} style={{ height: "30px" }} /> <span class="icon_heading_title">Battery</span>
+                            <img src={battery} alt='image_here' style={{ height: "30px" }} /> <span class="icon_heading_title">Battery</span>
                         </div>
                         <table class="table specification_table">
                             <tr>
@@ -265,7 +265,7 @@ const Specifications = () => {
 
                     </div>
                     <div class="col-md-3">
-                        <img src={right_Ad_banner} width="100%" />
+                        <img src={right_Ad_banner} alt='image_here' width="100%" />
                         <div class="spacer_custom_50"></div>
                         <div class="spacer_custom_20"></div>
                         <div class="heading_with_border_left">Specifications</div>
@@ -283,7 +283,7 @@ const Specifications = () => {
                         <div class="spacer_custom_10"></div>
                         <div class="side_mobile_section">
                             <div class="side_mobile_Col">
-                                <center><img src={slider_mobile_here} style={{ height: "88px" }} /></center>
+                                <center><img src={slider_mobile_here} alt='image_here' style={{ height: "88px" }} /></center>
                             </div>
                             <div class="side_mobile_Col">
                                 <div class="side_col_title">Infinix Note 12 G96</div>
@@ -293,7 +293,7 @@ const Specifications = () => {
                         </div>
                         <div class="side_mobile_section">
                             <div class="side_mobile_Col">
-                                <center><img src={slider_mobile_here} style={{ height: "88px" }} /></center>
+                                <center><img src={slider_mobile_here} alt='image_here' style={{ height: "88px" }} /></center>
                             </div>
                             <div class="side_mobile_Col">
                                 <div class="side_col_title">Infinix Note 12 G96</div>
@@ -303,7 +303,7 @@ const Specifications = () => {
                         </div>
                         <div class="side_mobile_section">
                             <div class="side_mobile_Col">
-                                <center><img src={slider_mobile_here} style={{ height: "88px" }} /></center>
+                                <center><img src={slider_mobile_here} alt='image_here' style={{ height: "88px" }} /></center>
                             </div>
                             <div class="side_mobile_Col">
                                 <div class="side_col_title">Infinix Note 12 G96</div>
@@ -313,7 +313,7 @@ const Specifications = () => {
                         </div>
                         <div class="side_mobile_section">
                             <div class="side_mobile_Col">
-                                <center><img src={slider_mobile_here} style={{ height: "88px" }} /></center>
+                                <center><img src={slider_mobile_here} alt='image_here' style={{ height: "88px" }} /></center>
                             </div>
                             <div class="side_mobile_Col">
                                 <div class="side_col_title">Infinix Note 12 G96</div>
@@ -336,7 +336,7 @@ const Specifications = () => {
                         </div>
                         <div class="side_mobile_section">
                             <div class="side_mobile_Col">
-                                <center><img src={slider_mobile_here} style={{ height: "88px" }} /></center>
+                                <center><img src={slider_mobile_here} alt='image_here' style={{ height: "88px" }} /></center>
                             </div>
                             <div class="side_mobile_Col">
                                 <div class="side_col_title">Infinix Note 12 G96</div>
@@ -346,7 +346,7 @@ const Specifications = () => {
                         </div>
                         <div class="side_mobile_section">
                             <div class="side_mobile_Col">
-                                <center><img src={slider_mobile_here} style={{ height: "88px" }} /></center>
+                                <center><img src={slider_mobile_here} alt='image_here' style={{ height: "88px" }} /></center>
                             </div>
                             <div class="side_mobile_Col">
                                 <div class="side_col_title">Infinix Note 12 G96</div>
@@ -356,7 +356,7 @@ const Specifications = () => {
                         </div>
                         <div class="side_mobile_section">
                             <div class="side_mobile_Col">
-                                <center><img src={slider_mobile_here} style={{ height: "88px" }} /></center>
+                                <center><img src={slider_mobile_here} alt='image_here' style={{ height: "88px" }} /></center>
                             </div>
                             <div class="side_mobile_Col">
                                 <div class="side_col_title">Infinix Note 12 G96</div>
@@ -378,7 +378,7 @@ const Specifications = () => {
                             <div class="btn tags">Under 115,000</div>
                         </div>
                         <div class="spacer_custom_30"></div>
-                        <img src={right2_Ad_banner} width="100%" />
+                        <img src={right2_Ad_banner} alt='image_here' width="100%" />
 
 
                     </div>

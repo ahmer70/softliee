@@ -9,15 +9,15 @@ const MobileSearch = ({ OpenS, setOpenS }) => {
     return (
         <div>
             <Offcanvas show={OpenS} onHide={() => setOpenS(false)} style={{ minWidth: "100%" }}>
-                <Offcanvas.Header className='w-100' style={{ backgroundColor: "#4958EF" }} >
+                <Offcanvas.Header className='w-100 ' style={{ backgroundColor: "#4958EF" }} >
                     <Offcanvas.Title >
-                        <img src={ArrowIcon} alt="" onClick={() => setOpenS(false)} className="d-inline-block align-text-top" style={{ width: "35px" }} />
+                        <img src={ArrowIcon} alt="" onClick={() => setOpenS(false)} className="d-inline-block align-text-top" style={{ width: "25px", height: "24px" }} />
 
                     </Offcanvas.Title>
                     <input type="text" className="msearch  rounded-pill " placeholder='Search Your Phone' />
 
                     <button type='button'   >
-                        <img src={LoginIcon} alt="" onClick={() => setOpenS(false)} className="d-inline-block align-text-top" style={{ width: "35px" }} />
+                        <img src={LoginIcon} alt="" onClick={() => setOpenS(false)} className="d-inline-block align-text-top" style={{ width: "24px", height: "24px" }} />
 
                     </button>
 
@@ -31,7 +31,7 @@ const MobileSearch = ({ OpenS, setOpenS }) => {
                         </button>
                     </div>
 
-                    <div className='d-flex justify-content-between align-items-center mb-4'>
+                    <div className='d-flex justify-content-between align-items-center mb-5'>
                         <div className='d-flex  align-items-center'>
                             <div><img src={Mobile1} alt="" style={{ width: "54px", height: "54px" }} /></div>
                             <div>
@@ -45,7 +45,7 @@ const MobileSearch = ({ OpenS, setOpenS }) => {
                             </svg>
                         </div>
                     </div>
-                    <div className='d-flex justify-content-between align-items-center mb-4'>
+                    <div className='d-flex justify-content-between align-items-center mb-5'>
                         <div className='d-flex  align-items-center'>
                             <div><img src={Mobile1} alt="" style={{ width: "54px", height: "54px" }} /></div>
                             <div>
@@ -59,7 +59,7 @@ const MobileSearch = ({ OpenS, setOpenS }) => {
                             </svg>
                         </div>
                     </div>
-                    <div className='d-flex justify-content-between align-items-center mb-4'>
+                    <div className='d-flex justify-content-between align-items-center mb-5'>
                         <div className='d-flex  align-items-center'>
                             <div><img src={Mobile1} alt="" style={{ width: "54px", height: "54px" }} /></div>
                             <div>

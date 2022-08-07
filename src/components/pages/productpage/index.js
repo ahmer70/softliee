@@ -1,32 +1,18 @@
 import React from 'react'
 import Mobile3 from '../../../assests/mobile3.svg'
 import './index.css'
-import Brandarrow from '../../../assests/brand-arrow.svg'
 import view_tube from '../../../assests/view_tube.svg'
-import watchvideo from '../../../assests/images/product/watchvideo.png'
 import display_size from '../../../assests/images/product/display_size.png'
 import resolution from '../../../assests/images/product/resolution.png'
 import rear_camera from '../../../assests/images/product/rear_camera.png'
 import front_camera from '../../../assests/images/product/front_camera.png'
 import battery from '../../../assests/images/product/battery.png'
 import drain_time from '../../../assests/images/product/drain_time.png'
-import sdas from '../../../assests/images/product/drain_time.png'
 import colors from '../../../assests/images/product/colors.png'
 import Specifications from './Specifications'
 const ProductPage = () => {
-    let title = {
-        fontWeight: 600,
-        fontSize: "24px",
-        lineHeight: "33px",
-        textTransform: "capitalize"
-    }
-    const verticalCenter = {
-        margin: 0,
-        position: "absolute",
-        top: "50%",
 
-        transform: "translateY(-50%)"
-    }
+
     return (
         <>
             <div class="container">
@@ -59,19 +45,19 @@ leDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                 </div>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active" data-bs-interval="10000">
-                                        <img src={Mobile3} class="d-block w-100" alt="..." />
+                                        <img src={Mobile3} alt='image_here' class="d-block w-100" />
                                         <div class="carousel-caption d-none d-md-block">
 
                                         </div>
                                     </div>
                                     <div class="carousel-item" data-bs-interval="2000">
-                                        <img src={Mobile3} class="d-block w-100" alt="..." />
+                                        <img src={Mobile3} alt='image_here' class="d-block w-100" />
                                         <div class="carousel-caption d-none d-md-block">
 
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src={Mobile3} class="d-block w-100" alt="..." />
+                                        <img src={Mobile3} alt='image_here' class="d-block w-100" />
                                         <div class="carousel-caption d-none d-md-block">
 
                                         </div>
@@ -122,7 +108,7 @@ leDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                             <div class="overview_details row p-0 m-0">
                                 <div class="col-6 overview_details_section">
                                     <div class="overview_details_section_col overview_details_icon">
-                                        <img src={display_size} style={{ height: "52px" }} />
+                                        <img src={display_size} alt='image_here' style={{ height: "52px" }} />
                                     </div>
                                     <div class="overview_details_section_col overview_icon_details">
                                         <div class="overview_details_title">Display Size</div>
@@ -131,7 +117,7 @@ leDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                 </div>
                                 <div class="col-6 overview_details_section">
                                     <div class="overview_details_section_col overview_details_icon">
-                                        <img src={resolution} style={{ height: "52px" }} />
+                                        <img src={resolution} alt='image_here' style={{ height: "52px" }} />
                                     </div>
                                     <div class="overview_details_section_col overview_icon_details">
                                         <div class="overview_details_title">Display Resolution</div>
@@ -140,7 +126,7 @@ leDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                 </div>
                                 <div class="col-6 overview_details_section">
                                     <div class="overview_details_section_col overview_details_icon">
-                                        <img src={rear_camera} style={{ height: "52px" }} />
+                                        <img src={rear_camera} alt='image_here' style={{ height: "52px" }} />
                                     </div>
                                     <div class="overview_details_section_col overview_icon_details">
                                         <div class="overview_details_title">Rear Camera</div>
@@ -149,7 +135,7 @@ leDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                 </div>
                                 <div class="col-6 overview_details_section">
                                     <div class="overview_details_section_col overview_details_icon">
-                                        <img src={front_camera} style={{ height: "52px" }} />
+                                        <img src={front_camera} alt='image_here' style={{ height: "52px" }} />
                                     </div>
                                     <div class="overview_details_section_col overview_icon_details">
                                         <div class="overview_details_title">Front Camera</div>
@@ -158,7 +144,7 @@ leDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                 </div>
                                 <div class="col-6 overview_details_section">
                                     <div class="overview_details_section_col overview_details_icon">
-                                        <img src={battery} style={{ height: "52px" }} />
+                                        <img src={battery} alt='image_here' style={{ height: "52px" }} />
                                     </div>
                                     <div class="overview_details_section_col overview_icon_details">
                                         <div class="overview_details_title">Battery Capacity</div>
@@ -167,7 +153,7 @@ leDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                 </div>
                                 <div class="col-6 overview_details_section">
                                     <div class="overview_details_section_col overview_details_icon">
-                                        <img src={drain_time} style={{ height: "52px" }} />
+                                        <img src={drain_time} alt='image_here' style={{ height: "52px" }} />
                                     </div>
                                     <div class="overview_details_section_col overview_icon_details">
                                         <div class="overview_details_title">Drain Time</div>
@@ -176,7 +162,7 @@ leDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                 </div>
                                 <div class="col-6 overview_details_section">
                                     <div class="overview_details_section_col overview_details_icon">
-                                        <img src={drain_time} style={{ height: "52px" }} />
+                                        <img src={drain_time} alt='image_here' style={{ height: "52px" }} />
                                     </div>
                                     <div class="overview_details_section_col overview_icon_details">
                                         <div class="overview_details_title">CPU</div>
@@ -185,7 +171,7 @@ leDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                 </div>
                                 <div class="col-6 overview_details_section">
                                     <div class="overview_details_section_col overview_details_icon">
-                                        <img src={colors} height="52px" />
+                                        <img src={colors} alt='image_here' height="52px" />
                                     </div>
                                     <div class="overview_details_section_col overview_icon_details">
                                         <div class="overview_details_title">Colors</div>
