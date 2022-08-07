@@ -36,7 +36,7 @@ function App() {
           <div className='mobile-mode-off'>
             <MobileMenu />
           </div>
-          {/* <HomePage /> */}
+          <HomePage />
 
           <Routes>
             <Route exact path="/" element={<HomePage />} />

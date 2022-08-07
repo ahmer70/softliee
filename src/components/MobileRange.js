@@ -1,7 +1,6 @@
 import React from "react";
 import "sanitize.css";
-// import "./styles.scss";
-import InputRange from "react-input-range";
+
 import Slider from "@material-ui/core/Slider";
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -44,7 +43,6 @@ const useStyles = makeStyles(
 );
 
 const MobileRange = () => {
-    const [val, setVal] = React.useState({ min: 0, max: 100 });
 
     const [val2, setVal2] = React.useState([1000, 35000]);
 
