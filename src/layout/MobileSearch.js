@@ -9,15 +9,15 @@ const MobileSearch = ({ OpenS, setOpenS }) => {
     return (
         <div>
             <Offcanvas show={OpenS} onHide={() => setOpenS(false)} style={{ minWidth: "100%" }}>
-                <Offcanvas.Header className='w-100 ' style={{ backgroundColor: "#4958EF" }} >
+                <Offcanvas.Header className='w-100 ' style={{ height: "60px", backgroundColor: "#4958EF" }} >
                     <Offcanvas.Title >
-                        <img src={ArrowIcon} alt="" onClick={() => setOpenS(false)} className="d-inline-block align-text-top" style={{ width: "25px", height: "24px" }} />
+                        <img src={ArrowIcon} alt="" onClick={() => setOpenS(false)} className="d-inline-block align-text-top" style={{ width: "20px", height: "24px" }} />
 
                     </Offcanvas.Title>
                     <input type="text" className="msearch  rounded-pill " placeholder='Search Your Phone' />
 
                     <button type='button'   >
-                        <img src={LoginIcon} alt="" onClick={() => setOpenS(false)} className="d-inline-block align-text-top" style={{ width: "24px", height: "24px" }} />
+                        <img src={LoginIcon} alt="" onClick={() => setOpenS(false)} className="d-inline-block align-text-top me-1" style={{ width: "24px", height: "24px" }} />
 
                     </button>
 
@@ -39,7 +39,7 @@ const MobileSearch = ({ OpenS, setOpenS }) => {
                             </div>
                         </div>
 
-                        <div>
+                        <div className='me-1'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
                                 <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
                             </svg>
@@ -53,7 +53,7 @@ const MobileSearch = ({ OpenS, setOpenS }) => {
                             </div>
                         </div>
 
-                        <div>
+                        <div className='me-1'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
                                 <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
                             </svg>
@@ -67,7 +67,7 @@ const MobileSearch = ({ OpenS, setOpenS }) => {
                             </div>
                         </div>
 
-                        <div>
+                        <div className='me-1'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
                                 <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
                             </svg>

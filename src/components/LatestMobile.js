@@ -88,12 +88,12 @@ const LatestMobile = () => {
         }
     ]
 
-
+    let width = window.screen.width
     return (
         <div className="my-2">
             <p className='right-border my-3 px-2 font26 font18' style={{ fontWeight: "bold" }}>Latest Mobile</p>
             <div className='row m-0'>
-                {list.map((e) => <>
+                {list.slice(0, width < 500 ? 6 : list.length).map((e) => <>
                     <div className='col-lg-3 col-md-4 col-6 col-6  p-2  '>
                         <div className='lItem  latest_mobile ltimg mx-auto text-center' >
 

@@ -344,25 +344,27 @@ a:active {
 input.msearch {
   background: url("./assests//mobile-nav/inputsearchicon.svg");
   background-repeat: no-repeat;
+
   background-color: white;
   background-position-x: 10px;
   background-position-y: 6px;
-  padding: 5px 0px 4px 39px;
+  padding: 3px 0px 3px 39px;
   width: 70%;
-  background-size: 20px;
+  height: 32px;
+  background-size: 18px;
 }
 
 .font26 {
-  font-size: "26px";
+  font-size: 26px;
 }
 .font28 {
-  font-size: "28px";
+  font-size: 28px;
 }
 .font36 {
-  font-size: "36px";
+  font-size: 36px;
 }
 .font20 {
-  font-size: "20px";
+  font-size: 20px;
 }
 .font22 {
   font-size: 22px;
@@ -401,13 +403,51 @@ input.msearch {
 .mb-padding {
   padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
+.label3 {
+  display: none;
+}
 
+.mr {
+  width: 95%;
+}
+.padding3 {
+  padding: 0.75rem;
+}
+.addP {
+  height: 140px;
+}
+.addP > div {
+  height: 90px;
+}
+.font36nl {
+  font-size: 36px;
+}
 @media screen and (max-width: 500px) {
+  .NewsLetter > div > input {
+    height: 44px;
+  }
+  .NewsLetter > div > span {
+    border-radius: 0rem;
+    width: 85px !important;
+    height: 48px !important;
+  }
+  .nlwidth {
+    width: 88%;
+  }
+  .font36nl {
+    font-size: 18px;
+  }
   .find-btn {
     padding: 0px;
     font-size: 14px;
 
     height: 48px;
+  }
+  .addP {
+    height: 270px;
+  }
+  .addP > div {
+    height: 230px;
   }
   .lCompare {
     width: 100px;
@@ -427,6 +467,10 @@ input.msearch {
   .label1 {
     display: none;
   }
+  .label3 {
+    display: block;
+  }
+
   .label2 {
     display: block;
     margin-bottom: 14px;
@@ -442,9 +486,16 @@ input.msearch {
     display: contents;
   }
   .pc-whole {
+    box-shadow: 0px 2px 8px rgba(2, 3, 3, 0.18);
     padding: 0px;
     margin-bottom: 14px;
     border-radius: 12px;
+  }
+  .padding3 {
+    padding: 5px;
+  }
+  .mr {
+    width: 90%;
   }
   .pc-arrange {
     padding: 10px;

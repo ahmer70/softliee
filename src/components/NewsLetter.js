@@ -4,7 +4,7 @@ const NewsLetter = () => {
         <div className=' d-flex justify-content-center align-items-center' style={{ height: "306px" }}>
             <div className='mx-auto nlwidth' >
                 <div className='mx-auto text-center'>
-                    <p className="text-white font24" style={{ fontSize: "36px", fontWeight: "bold" }}>Subscribe To Newsletter</p>
+                    <p className="text-white font36nl" style={{ fontWeight: "bold" }}>Subscribe To Newsletter</p>
 
                 </div>
                 <div className=" position-relative mx-auto NewsLetter  " style={{ marginTop: "70px" }}>

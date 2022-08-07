@@ -39,7 +39,7 @@ const PopularComparision = () => {
 
             </div>
 
-            <div className=' row m-0 mt-5'>
+            <div className=' row mx-0 mt-5'>
                 {data.map((e) => <>
                     <div className=' col-sm-4  ' >
                         <div className=' border pc-whole latest_mobile' >

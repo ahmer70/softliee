@@ -5,7 +5,9 @@ const FindMobile = () => {
     let ram = [1, 2, 3, 4, 6, 8, 12, 16]
     return (
         <div className="my-2 ">
-            <p className='right-border mb-2 ps-2 font26 font18' style={{ fontWeight: "bold" }}>Lets Find A Mobile Phone</p>
+            <p className='right-border mb-2 ps-2 label1 font26 font18' style={{ fontWeight: "bold" }}>Lets Find A Mobile Phone</p>
+            <p className='right-border mb-2 ps-2  label3 font18' style={{ fontWeight: "bold" }}>Lets Find A Mobile</p>
+
             <div className="mx-auto position-relative" >
                 <MobileRange />
                 <button type='button' className='find-btn ' style={{ backgroundColor: "#4958EF", fontWeight: "bold", color: "white" }}>Find Mobile</button>

@@ -26,7 +26,7 @@ function App() {
     <>
 
 
-      <HashRouter >
+      <Router >
         <div>
           <div className='tablet-mode'>
             <Navbar />
@@ -38,7 +38,7 @@ function App() {
             <MobileMenu />
           </div>
 
-
+          <HomePage />
           <Routes>
             <Route exact path="/" element={<HomePage />} />
             <Route exact path="/product_page" element={<ProductPage />} />
@@ -63,7 +63,7 @@ function App() {
             </div>
           </div>
         </div>
-      </HashRouter>
+      </Router>
 
     </>
   );

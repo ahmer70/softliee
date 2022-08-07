@@ -34,6 +34,7 @@ const PopularMobiles = () => {
         }
 
     ]
+    let width = window.screen.width
     return (
         <div className="mt-3">
             <div className='d-flex justify-content-between my-3 px-2'>
@@ -50,7 +51,7 @@ const PopularMobiles = () => {
             </div>
 
             <div className='row m-0'>
-                {list.map((e) => <>
+                {list.slice(0, width < 500 ? 2 : list.length).map((e) => <>
                     <div className='col-lg-3  col-md-4 col-6 p-2  '>
                         <div className='lItem  latest_mobile ltimg mx-auto text-center' >
 

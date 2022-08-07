@@ -35,6 +35,9 @@ const TechNews = () => {
             time: "5 min ago"
         }
     ]
+
+
+    let width = window.screen.width
     return (
         <div className="my-3">
             <div className='d-flex justify-content-between my-3 px-2'>
@@ -51,9 +54,9 @@ const TechNews = () => {
             </div>
             <div className="row my-3 mx-0">
 
-                {list.map((e) => <div className="col-md-6 ">
-                    <div className="card mb-3 p-3 latest_mobile" >
-                        <div className="row g-0">
+                {list.slice(0, width < 500 ? 4 : list.length).map((e) => <div className="col-md-6 ">
+                    <div className="card mb-3 padding3 latest_mobile" >
+                        <div className="row  align-items-center g-0">
                             <div className="col-4 ">
                                 <img src={e.image} className="img-fluid mx-auto rounded-start" alt="..." />
                             </div>
