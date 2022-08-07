@@ -7,6 +7,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
+  HashRouter
 
 } from 'react-router-dom'
 import Navbar from './components/Navbar';
@@ -25,7 +26,7 @@ function App() {
     <>
 
 
-      <Router>
+      <HashRouter >
         <div>
           <div className='tablet-mode'>
             <Navbar />
@@ -36,7 +37,7 @@ function App() {
           <div className='mobile-mode-off'>
             <MobileMenu />
           </div>
-          <HomePage />
+
 
           <Routes>
             <Route exact path="/" element={<HomePage />} />
@@ -62,7 +63,7 @@ function App() {
             </div>
           </div>
         </div>
-      </Router>
+      </HashRouter>
 
     </>
   );
