@@ -18,6 +18,7 @@ import ProductPage from './components/pages/productpage';
 import './App.css';
 import './index.css'
 import MobileMenu from './layout/MobileMenu';
+import MobileBottom from './layout/MobileBottom';
 
 
 let path = window.location.pathname
@@ -32,29 +33,31 @@ function App() {
             <Navbar />
 
             <SubNav />
+
           </div>
 
           <div className='mobile-mode-off'>
             <MobileMenu />
+            <MobileBottom />
           </div>
 
-          <HomePage />
+          {/* <HomePage /> */}
           <Routes>
             <Route exact path="/" element={<HomePage />} />
             <Route exact path="/product_page" element={<ProductPage />} />
 
           </Routes>
-
+          <HomePage />
 
           <div className='' style={{ backgroundColor: "black" }}>
-            {path === '/' && <>
-              <div className='mx-auto mt-2' style={{ maxWidth: "1360px" }}>
-                <NewsLetter />
+            {/* {path === '/' && <> */}
+            <div className='mx-auto mt-2' style={{ maxWidth: "1360px" }}>
+              <NewsLetter />
 
 
-              </div>
-              <hr style={{ color: "white", opacity: 1 }} />
-            </>}
+            </div>
+            <hr style={{ color: "white", opacity: 1 }} />
+            {/* </>} */}
             <div className='mx-auto ' style={{ maxWidth: "1360px" }}>
 
 

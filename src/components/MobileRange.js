@@ -30,6 +30,7 @@ const useStyles = makeStyles(
             margin: `${width < 500 ? '-14px' : '-18px'} 0px 0px ${width < 500 ? '-17px' : '0px'}`,
             backgroundColor: "#4958EF",
             border: "4px solid white",
+            boxShadow: " 0px 6px 10px rgba(97, 103, 113, 0.3)"
             // boxShadow: "0 2px 4px 0 rgba(0, 0, 0, 0.09)",
             // "&$focusVisible,&:hover": {
             //     boxShadow: "0 0 0 8px rgba(155, 38, 182, 0.2)"

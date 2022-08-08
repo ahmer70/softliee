@@ -14,7 +14,7 @@ const SubNav = () => {
     }
     return (
         <div className='bg-wight submenu  shadow-sm' style={{ height: "55px " }}>
-            <div className='d-flex  px-3 justify-content-between align-items-center mx-auto pt-2 ' style={{ maxWidth: "1360px" }} >
+            <div className='d-flex   justify-content-between align-items-center mx-auto pt-2 ' style={{ maxWidth: "1360px" }} >
                 <Link to="/" style={navstyle}>Trending Mobiles</Link>
 
                 <Link to="/" style={navstyle}>Tech News</Link>

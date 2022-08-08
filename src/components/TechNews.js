@@ -46,7 +46,7 @@ const TechNews = () => {
 
                 </div>
                 <div>
-                    <button type='button' className='d-flex font18 font12  align-items-center justify-content-center rounded-pill border  px-3' style={{ height: "36px" }} >
+                    <button type='button' className='d-flex see-more align-items-center justify-content-center rounded-pill border  px-3'  >
                         <p style={{ fontWeight: 600 }}>See More</p> <img src={Brandarrow} className="align-items-center ms-2 " alt="Brandarrow" style={{ height: "fit-content", width: "8px" }} />
                     </button>
                 </div>
@@ -55,7 +55,7 @@ const TechNews = () => {
             <div className="row my-3 mx-0">
 
                 {list.slice(0, width < 500 ? 4 : list.length).map((e) => <div className="col-md-6 ">
-                    <div className="card mb-3 padding3 latest_mobile" >
+                    <div className="card mb-3 p-3 card-border latest_mobile" >
                         <div className="row  align-items-center g-0">
                             <div className="col-4 ">
                                 <img src={e.image} className="img-fluid mx-auto rounded-start tn_img" alt="..." />

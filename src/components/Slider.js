@@ -6,8 +6,8 @@ const Slider = () => {
     let width = window.screen.width
     return (
         <>
-            <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel" style={{ marginTop: "14px" }}>
-                <div className={`carousel-inner ${width < 500 ? 'px-2' : ''}`}>
+            <div id="carouselExampleControls" className={`carousel slide ${width < 500 ? 'px-2' : ''}`} data-bs-ride="carousel" style={{ marginTop: "14px" }}>
+                <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src={width < 500 ? Slider3i : Slider3} className="d-block w-100" alt="Slider3" style={{ borderRadius: "16px" }} />
                     </div>
@@ -18,11 +18,11 @@ const Slider = () => {
                         <img src={width < 500 ? Slider3i : Slider3} className="d-block w-100" alt="Slider3" style={{ borderRadius: "16px" }} />
                     </div>
                 </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" style={{ marginLeft: `${width < 500 ? '8px' : ''}` }}>
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Previous</span>
                 </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next" style={{ marginRight: `${width < 500 ? '8px' : ''}` }}>
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button>

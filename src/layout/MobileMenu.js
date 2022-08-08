@@ -13,12 +13,14 @@ import LoginIcon from '../assests/ic_login.svg'
 import SearchIcon from '../assests/mobile-nav/mobile-search.svg'
 import MenuIcon from '../assests/mobile-nav/Menu.svg'
 import PakIcon from '../assests/pak.svg'
+import IndiaIcon from '../assests/india.svg'
+import USAIcon from '../assests/usa.svg'
 
 import { Link } from 'react-router-dom'
 import MobileSearch from './MobileSearch';
 const MobileMenu = () => {
     const [MMenu, setMMenu] = useState(false), [OpenS, setOpenS] = useState(false);
-    const [SM, setSM] = useState(3)
+    const [SM, setSM] = useState(3), [DD, setDD] = useState('Pakistan')
 
     let brands = ['Apple', 'Realme', 'Huawei', 'Samsung', 'Oppo', 'Vivo', 'Infinix', 'Oneplus', 'Itel',
         'Google', 'Redmi', 'Xiamoi', 'Honor', 'Nokia']
@@ -26,18 +28,18 @@ const MobileMenu = () => {
     return (
         <div>
             <div>
-                <nav class="navbar " style={{ backgroundColor: "#4958EF" }}>
+                <nav class="navbar " style={{ backgroundColor: "#4958EF", height: "60px" }}>
                     <div class="container-fluid" >
                         <button className=" " type="button" onClick={() => setMMenu(true)} aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <img src={ListIcon} alt="ListIcon" style={{ width: "32.6px", height: "14.4px" }} />
                         </button>
-                        <Link className="navbar-brand" to="/">
-                            <img src={Logo} alt="" className="d-inline-block align-text-top" style={{ width: "130px", height: "42px" }} />
+                        <Link className="navbar-brand mx-auto" to="/">
+                            <img src={Logo} alt="" className="d-inline-block align-text-top" style={{ width: "88px", height: "28px" }} />
 
                         </Link>
                         <div className='d-flex'>
-                            <img src={SearchIcon} onClick={() => setOpenS(true)} style={{ cursor: "pointer" }} className="pe-3" alt="SearchIcon" />
-                            <img src={LoginIcon} alt="SearchIcon" />
+                            <img src={SearchIcon} onClick={() => setOpenS(true)} className="me-3" alt="SearchIcon" style={{ marginTop: "2px", cursor: "pointer", width: "17.6px", height: "17.6px" }} />
+                            <img src={LoginIcon} alt="SearchIcon" style={{ width: "16px", height: "20px" }} />
                         </div>
 
                     </div>
@@ -133,26 +135,38 @@ const MobileMenu = () => {
 
 
                     </ul>
-                    <div class="accordion border-top accordion-flush" id="accordionFlushExample2">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button ps-2  border-0 bg-transparent d-flex collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne2" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    <img src={PakIcon} className="me-3" alt="BransIcon" />  <p>Pakistan</p>
 
-                                </button>
-                            </h2>
-                            <div id="flush-collapseOne2" class="accordion-collapse collapse" aria-labelledby="flush-headingOne2" data-bs-parent="#accordionFlushExample2">
-                                <div class="accordion-body">
-                                    <ul class="list-group border-0">
-
-                                    </ul>
-                                </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle d-flex justify-content-between align-items-center border-0 text-dark w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div className='d-flex ms-1'>
+                                <img src={DD === 'Pakistan' ? PakIcon : DD === 'India' ? IndiaIcon : DD === 'USA' ? USAIcon : ""} alt="PakIcon" width={24} height={18} />
+                                <p className='ms-2'>{DD}</p>
                             </div>
-                        </div>
+                        </button>
+                        <ul className="dropdown-menu" style={{ width: "100%" }}>
+                            <li className="dropdown-item " onClick={() => setDD('Pakistan')} >
+                                <div className='d-flex '>
+                                    <img src={PakIcon} alt="PakIcon" width={24} height={18} />
+                                    <div className='text-end ms-3' style={{ fontSize: "18px" }}>
+                                        Pakistan
+                                    </div>
+                                </div>
 
-
+                            </li>
+                            <li className="dropdown-item" onClick={() => setDD('India')} >  <div className='d-flex '>
+                                <img src={IndiaIcon} alt="PakIcon" width={24} height={18} />
+                                <div className='text-start ms-3' style={{ fontSize: "18px" }}>
+                                    India
+                                </div>
+                            </div></li>
+                            <li className="dropdown-item" onClick={() => setDD('USA')} >  <div className='d-flex '>
+                                <img src={USAIcon} alt="PakIcon" width={24} height={18} />
+                                <div className='text-start ms-3' style={{ fontSize: "18px" }}>
+                                    USA
+                                </div>
+                            </div></li>
+                        </ul>
                     </div>
-
                 </Offcanvas.Body>
             </Offcanvas>
 

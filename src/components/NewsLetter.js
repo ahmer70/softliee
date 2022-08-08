@@ -1,7 +1,7 @@
 import React from 'react'
 const NewsLetter = () => {
     return (
-        <div className=' d-flex justify-content-center align-items-center' style={{ height: "306px" }}>
+        <div className=' d-flex justify-content-center align-items-center' style={{ height: "260px" }}>
             <div className='mx-auto nlwidth' >
                 <div className='mx-auto text-center'>
                     <p className="text-white font36nl" style={{ fontWeight: "bold" }}>Subscribe To Newsletter</p>

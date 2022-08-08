@@ -91,7 +91,20 @@ const LatestMobile = () => {
     let width = window.screen.width
     return (
         <div className="my-2">
-            <p className='right-border my-3 px-2 font26 font18' style={{ fontWeight: "bold" }}>Latest Mobile</p>
+            {width < 500 ? <div className='d-flex justify-content-between my-3 px-2'>
+                <div>
+                    <p className='right-border  ps-2 font26 font18' style={{ fontWeight: "bold" }}>Latest Mobiles</p>
+
+                </div>
+                <div>
+                    <button type='button' className='d-flex  see-more align-items-center justify-content-center rounded-pill border  px-3'  >
+                        <p style={{ fontWeight: 600 }}>See More</p> <img src={Brandarrow} className="align-items-center ms-2 " alt="Brandarrow" style={{ height: "fit-content", width: "8px" }} />
+                    </button>
+                </div>
+
+            </div> :
+                <p className='right-border my-3 px-2 font26 font18' style={{ fontWeight: "bold" }}>Latest Mobile</p>}
+
             <div className='row m-0'>
                 {list.slice(0, width < 500 ? 6 : list.length).map((e) => <>
                     <div className='col-lg-3 col-md-4 col-6 col-6  p-2  '>

@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/softliee/static/css/main.97e0f2cd.css",
-    "main.js": "/softliee/static/js/main.bb772a00.js",
+    "main.css": "/softliee/static/css/main.0e9734d9.css",
+    "main.js": "/softliee/static/js/main.f61cb889.js",
     "static/js/787.d5ca679e.chunk.js": "/softliee/static/js/787.d5ca679e.chunk.js",
     "static/media/mobile2.svg": "/softliee/static/media/mobile2.5db9a81e021e6c16a32491806ac1ca6e.svg",
     "static/media/slide-3i.svg": "/softliee/static/media/slide-3i.91ccaa90ee8be6dc3dd92058fcc11a3b.svg",
+    "static/media/usa.svg": "/softliee/static/media/usa.3a52ee9e02518ccfc028bbbb782eab33.svg",
     "static/media/slide-3.svg": "/softliee/static/media/slide-3.c657f12784b1e7a83abe9c3a41bdebe5.svg",
     "static/media/right2_Ad_banner.png": "/softliee/static/media/right2_Ad_banner.94b5fbc4317c1300d35a.png",
     "static/media/right_Ad_banner.png": "/softliee/static/media/right_Ad_banner.e64f0e143872ed6b68f4.png",
@@ -13,19 +14,22 @@
     "static/media/mobile1.svg": "/softliee/static/media/mobile1.10805b1c6f5ccccc83b833a112b0ea8a.svg",
     "static/media/pak.svg": "/softliee/static/media/pak.dd58207ba981605a18c3c7191092c3ad.svg",
     "static/media/mobile3.svg": "/softliee/static/media/mobile3.ab0a01ea1d43469a090f9229351dbf6a.svg",
+    "static/media/india.svg": "/softliee/static/media/india.e93e8006367553e0c15d9fd4b3d2c81d.svg",
     "static/media/connectivity.png": "/softliee/static/media/connectivity.8b01d4b5d44255d80b4c.png",
     "static/media/colors.png": "/softliee/static/media/colors.e7c54d83b7d3018efb3d.png",
     "static/media/featires.png": "/softliee/static/media/featires.3b731e674c4cd346c693.png",
     "static/media/Menu.svg": "/softliee/static/media/Menu.de8a993e8ac87d5bd5b3c0422134fa88.svg",
     "static/media/top-brands.svg": "/softliee/static/media/top-brands.404ec488b916626cee0e29fd9c44b768.svg",
-    "static/media/compare.svg": "/softliee/static/media/compare.1f107807f249b626cb233adbbb2cf0e2.svg",
+    "static/media/compare.svg": "/softliee/static/media/compare.dde010172e3022a95d9681f7f29f90ab.svg",
     "static/media/teck-news.svg": "/softliee/static/media/teck-news.e05b5fdeb5bd448349d09c472d02a1d3.svg",
     "static/media/ic_login.svg": "/softliee/static/media/ic_login.8b9e7f777df098363ab47fb421bccff0.svg",
+    "static/media/finder.svg": "/softliee/static/media/finder.ebc533ba6d858f0af1deb520326d312c.svg",
     "static/media/ic_home.svg": "/softliee/static/media/ic_home.a377cc699b8057e1d87b4e33aa264e9d.svg",
     "static/media/pinterest.svg": "/softliee/static/media/pinterest.432555904744229abf84d5b3cab7bf22.svg",
     "static/media/pintrest-f.svg": "/softliee/static/media/pintrest-f.e1812bf01cb0fa16bc0538415edac80c.svg",
     "static/media/list.svg": "/softliee/static/media/list.5f8bd5dd9e84143bf5179fdc07510258.svg",
     "index.html": "/softliee/index.html",
+    "static/media/noti.svg": "/softliee/static/media/noti.33ba98f8d2363d0ce9d9930fb3b7930b.svg",
     "static/media/Vector.svg": "/softliee/static/media/Vector.c863de6f56a36f8bca118168a7f7822c.svg",
     "static/media/linkinden-f.svg": "/softliee/static/media/linkinden-f.b6f841608868488cf57780d0bdf78761.svg",
     "static/media/view_tube.svg": "/softliee/static/media/view_tube.091052f37d024e9de7c2f60fc8923b43.svg",
@@ -33,6 +37,7 @@
     "static/media/linkedin.svg": "/softliee/static/media/linkedin.d42886860957ce9292570f486f486767.svg",
     "static/media/tanding.svg": "/softliee/static/media/tanding.6e94a5d9cda91cdd008738e62d94b589.svg",
     "static/media/wifi.svg": "/softliee/static/media/wifi.24274694a880ce30f73b09279c1ca681.svg",
+    "static/media/home.svg": "/softliee/static/media/home.7a7cb15ca1fc8ba247b9d1def2943f66.svg",
     "static/media/mobile-search.svg": "/softliee/static/media/mobile-search.16b281121eda3ec4aa0c0e69d53dc3f3.svg",
     "static/media/inputsearchicon.svg": "/softliee/static/media/inputsearchicon.5391c238790161a6f122.svg",
     "static/media/facebook.svg": "/softliee/static/media/facebook.20f75b56abcc1a8c534775a6aebd2b10.svg",
@@ -45,12 +50,12 @@
     "static/media/comparearrow.svg": "/softliee/static/media/comparearrow.2312fa5b2bfddefe193ffa3183805241.svg",
     "static/media/Vector2.svg": "/softliee/static/media/Vector2.673ddc342c3a7c5f6f4a45d3a31a44c9.svg",
     "static/media/list-style.svg": "/softliee/static/media/list-style.3f061295fcc669de4221.svg",
-    "main.97e0f2cd.css.map": "/softliee/static/css/main.97e0f2cd.css.map",
-    "main.bb772a00.js.map": "/softliee/static/js/main.bb772a00.js.map",
+    "main.0e9734d9.css.map": "/softliee/static/css/main.0e9734d9.css.map",
+    "main.f61cb889.js.map": "/softliee/static/js/main.f61cb889.js.map",
     "787.d5ca679e.chunk.js.map": "/softliee/static/js/787.d5ca679e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97e0f2cd.css",
-    "static/js/main.bb772a00.js"
+    "static/css/main.0e9734d9.css",
+    "static/js/main.f61cb889.js"
   ]
 }

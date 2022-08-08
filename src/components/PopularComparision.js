@@ -32,7 +32,7 @@ const PopularComparision = () => {
 
                 </div>
                 <div>
-                    <button type='button' className='d-flex  font18 font12 align-items-center justify-content-center rounded-pill border  px-3' style={{ height: "36px" }} >
+                    <button type='button' className='d-flex  see-more align-items-center justify-content-center rounded-pill border  px-3' >
                         <p style={{ fontWeight: 600 }}>See More</p> <img src={Brandarrow} className="align-items-center ms-2 " alt="Brandarrow" style={{ height: "fit-content", width: "8px" }} />
                     </button>
                 </div>

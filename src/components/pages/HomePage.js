@@ -11,6 +11,10 @@ import Adpalcement from '../../layout/Adpalcement';
 
 
 const HomePage = () => {
+    
+    let width = window.screen.width
+
+
     return (
         <div>
 
@@ -29,8 +33,9 @@ const HomePage = () => {
 
                 </div>
             </div>
-            <Adpalcement />
+            
 
+            {width>500&&<Adpalcement />}
             <div className='mx-auto mt-2' style={{ maxWidth: "1360px" }}>
                 <LatestMobile />
 

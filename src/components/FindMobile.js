@@ -11,9 +11,9 @@ const FindMobile = () => {
             <div className="mx-auto position-relative" >
                 <MobileRange />
                 <button type='button' className='find-btn ' style={{ backgroundColor: "#4958EF", fontWeight: "bold", color: "white" }}>Find Mobile</button>
-                <div >
+                <div className="ram-list ">
                     <p className='my-3'>RAM</p>
-                    <div className='ram'>
+                    <div className='d-flex justify-content-between' style={{ overflow: "auto" }}>
                         {ram.map((e) => <div>
                             <p className=' rma-in ' >{e} GB</p>
                         </div>)

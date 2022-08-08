@@ -11,7 +11,7 @@ const Footer = () => {
         <div>
             <div className="" style={{ marginTop: "18px" }}>
 
-                <footer className="py-5">
+                <footer className="pt-5 pb-1">
                     <div className="d-flex  ">
                         <div className=" mb-3 me-5 tablet-mode" style={{ width: "280px" }}>
                             <Link to="/" className="d-flex align-items-center mb-3 link-dark text-decoration-none">
@@ -69,7 +69,7 @@ const Footer = () => {
 
                     </div>
 
-                    <div className="d-flex flex-column footer-bottom flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <div className="d-flex flex-column footer-bottom flex-sm-row justify-content-between py-4 ftmargin border-top">
                         <p className='text-white'>&copy; Softliee Pakistan © 2022 All Rights Reserved  <Link to="/" className='text-danger'>Softliee.com</Link></p>
                         <ul className="list-unstyled d-flex">
                             <li className="ms-3"><Link className="link-dark" to="/">
