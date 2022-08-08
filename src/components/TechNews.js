@@ -58,10 +58,10 @@ const TechNews = () => {
                     <div className="card mb-3 padding3 latest_mobile" >
                         <div className="row  align-items-center g-0">
                             <div className="col-4 ">
-                                <img src={e.image} className="img-fluid mx-auto rounded-start" alt="..." />
+                                <img src={e.image} className="img-fluid mx-auto rounded-start tn_img" alt="..." />
                             </div>
                             <div className="col-8">
-                                <div className="card-body">
+                                <div className="card-body ts-body">
                                     <h5 className="card-title font22 font14" style={{ fontWight: "bold" }}>{e.title}</h5>
                                     <p className="card-text"><small className="text-muted"><a href="/" className='text-danger text-decoration-underline  font20 font11b' >Read More</a></small></p>
                                     <p className="card-text text-muted font18t font8b" >{e.time}</p>

@@ -66,7 +66,7 @@ const PopularMobiles = () => {
                             <div style={{ paddingTop: "6px" }}>
                                 <p className='text-muted font18 font12' >{e.spec}</p>
 
-                                <p className='d-flex justify-content-center font26 font12' style={{ fontWeight: "bold", color: "#262626" }}>Rs. {e.price} <img src={WifiIcon} className="ms-2" alt="WifiIcon" /></p>
+                                <p className='d-flex justify-content-center prize-size ' style={{ fontWeight: "bold", color: "#262626" }}>Rs. {e.price} <img src={WifiIcon} className="ms-2" alt="WifiIcon" /></p>
                             </div>
                         </div>
                     </div>

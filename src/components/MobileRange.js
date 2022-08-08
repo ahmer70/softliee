@@ -7,6 +7,9 @@ import { makeStyles } from "@material-ui/core/styles";
 // docs:
 // - https://material-ui.com/api/slider/#css
 // - https://material-ui.com/styles/advanced/#makestyles-withstyles-styled
+
+let width = window.screen.width;
+console.log("width", width)
 const useStyles = makeStyles(
     {
         track: {
@@ -22,9 +25,9 @@ const useStyles = makeStyles(
         },
         thumb: {
             color: "white",
-            width: "43px",
-            height: "43px",
-            marginTop: "-18px",
+            width: `${width < 500 ? '35px' : '43px'}`,
+            height: `${width < 500 ? '35px' : '43px'}`,
+            margin: `${width < 500 ? '-14px' : '-18px'} 0px 0px ${width < 500 ? '-17px' : '0px'}`,
             backgroundColor: "#4958EF",
             border: "4px solid white",
             // boxShadow: "0 2px 4px 0 rgba(0, 0, 0, 0.09)",
@@ -67,7 +70,7 @@ const MobileRange = () => {
                     />
                     <div className='d-flex justify-content-between'>
                         <label for="inputrange1" className="col-form-label label2 text-secondary " style={{ fontSize: "14px", fontWight: 500 }}>RS: 0</label>
-                        <label for="inputrange1" className="col-form-label label2 text-end text-secondary" style={{ fontSize: "14px", fontWight: 500, marginRight: "-21px" }}>RS: 3.5 lac </label>
+                        <label for="inputrange1" className="col-form-label label2 text-end text-secondary" style={{ fontSize: "14px", fontWight: 500 }}>RS: 3.5 lac </label>
 
                     </div>
                 </div>

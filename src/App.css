@@ -422,14 +422,54 @@ input.msearch {
 .font36nl {
   font-size: 36px;
 }
+
+.tn_img {
+  width: 220px;
+  height: 160px;
+}
+.margin5 {
+  margin-top: 1.25rem;
+}
+.prize-size {
+  font-size: 26px;
+}
+
 @media screen and (max-width: 500px) {
+  .footer-bottom {
+    padding: 0px 14px;
+  }
+  .footer-bottom > ul {
+    padding: 13px 0px;
+  }
+  .footer-bottom > ul > li:first-child {
+    margin-left: 0px !important;
+  }
+  .footer-bottom > ul > li > a > img {
+    width: 28px !important;
+    height: 28px !important;
+  }
+  .prize-size {
+    font-size: 14px;
+  }
+  .margin5 {
+    margin-top: 4px;
+  }
+  .ts-body {
+    padding: 4px;
+  }
+  .ts-body > h5 {
+    margin: 0px;
+  }
+  .tn_img {
+    width: 105px;
+    height: 76px;
+  }
   .NewsLetter > div > input {
     height: 44px;
   }
   .NewsLetter > div > span {
     border-radius: 0rem;
     width: 85px !important;
-    height: 48px !important;
   }
   .nlwidth {
     width: 88%;
@@ -450,9 +490,9 @@ input.msearch {
     height: 230px;
   }
   .lCompare {
-    width: 100px;
-    padding: 6px 12px;
-    height: 28px;
+    width: 94px;
+    padding: 2px 5px;
+    height: 24px;
   }
   .pc-arrange > img {
     width: 68px;
@@ -495,7 +535,8 @@ input.msearch {
     padding: 5px;
   }
   .mr {
-    width: 90%;
+    width: 100%;
+    padding: 0px 8px;
   }
   .pc-arrange {
     padding: 10px;
@@ -508,10 +549,10 @@ input.msearch {
     font-size: 16px;
   }
   .comparem {
-    width: 10px;
+    width: 16px;
     background-color: #4958ef;
     border-radius: 0px 12px 12px 0px;
-    padding: 0px 2px;
+    padding: 0px 4px;
     display: flex;
     align-items: center;
   }
@@ -533,7 +574,7 @@ input.msearch {
   }
   .ram > div {
     padding: 18px;
-    border-radius: 0px;
+    border-radius: 6px;
     height: 9px;
   }
   .lItem {
