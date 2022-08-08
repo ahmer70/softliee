@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/softliee/static/css/main.657992f9.css",
-    "main.js": "/softliee/static/js/main.a0baf300.js",
+    "main.css": "/softliee/static/css/main.97e0f2cd.css",
+    "main.js": "/softliee/static/js/main.bb772a00.js",
     "static/js/787.d5ca679e.chunk.js": "/softliee/static/js/787.d5ca679e.chunk.js",
     "static/media/mobile2.svg": "/softliee/static/media/mobile2.5db9a81e021e6c16a32491806ac1ca6e.svg",
+    "static/media/slide-3i.svg": "/softliee/static/media/slide-3i.91ccaa90ee8be6dc3dd92058fcc11a3b.svg",
     "static/media/slide-3.svg": "/softliee/static/media/slide-3.c657f12784b1e7a83abe9c3a41bdebe5.svg",
     "static/media/right2_Ad_banner.png": "/softliee/static/media/right2_Ad_banner.94b5fbc4317c1300d35a.png",
     "static/media/right_Ad_banner.png": "/softliee/static/media/right_Ad_banner.e64f0e143872ed6b68f4.png",
@@ -44,12 +45,12 @@
     "static/media/comparearrow.svg": "/softliee/static/media/comparearrow.2312fa5b2bfddefe193ffa3183805241.svg",
     "static/media/Vector2.svg": "/softliee/static/media/Vector2.673ddc342c3a7c5f6f4a45d3a31a44c9.svg",
     "static/media/list-style.svg": "/softliee/static/media/list-style.3f061295fcc669de4221.svg",
-    "main.657992f9.css.map": "/softliee/static/css/main.657992f9.css.map",
-    "main.a0baf300.js.map": "/softliee/static/js/main.a0baf300.js.map",
+    "main.97e0f2cd.css.map": "/softliee/static/css/main.97e0f2cd.css.map",
+    "main.bb772a00.js.map": "/softliee/static/js/main.bb772a00.js.map",
     "787.d5ca679e.chunk.js.map": "/softliee/static/js/787.d5ca679e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.657992f9.css",
-    "static/js/main.a0baf300.js"
+    "static/css/main.97e0f2cd.css",
+    "static/js/main.bb772a00.js"
   ]
 }
