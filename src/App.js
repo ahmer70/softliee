@@ -41,13 +41,13 @@ function App() {
             <MobileBottom />
           </div>
 
-          {/* <HomePage /> */}
+          <HomePage />
           <Routes>
             <Route exact path="/" element={<HomePage />} />
             <Route exact path="/product_page" element={<ProductPage />} />
 
           </Routes>
-          <HomePage />
+
 
           <div className='' style={{ backgroundColor: "black" }}>
             {/* {path === '/' && <> */}
