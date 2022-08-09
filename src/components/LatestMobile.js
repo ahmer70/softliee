@@ -114,12 +114,12 @@ const LatestMobile = () => {
 
                             <p className='LTitle font14'>{e.name}</p>
                             <div className='lCompare mx-auto'>
-                                <p className='  text-white text-center align-item-center font20 font12' style={{ fontWeight: 600 }} >Compare +</p>
+                                <p className='  text-white text-center align-item-center  font12' style={{ fontWeight: 600 }} >Compare +</p>
                             </div>
 
 
                             <div style={{ paddingTop: "6px" }}>
-                                <p className='text-muted font18 font12 ' >{e.spec}</p>
+                                <p className='text-muted  spec ' >{e.spec}</p>
 
                                 <p className='prize-size ' style={{ fontWeight: "bold", color: "#262626" }}>Rs. {e.price}</p>
                             </div>

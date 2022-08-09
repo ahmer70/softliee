@@ -9,7 +9,7 @@ import { makeStyles } from "@material-ui/core/styles";
 // - https://material-ui.com/styles/advanced/#makestyles-withstyles-styled
 
 let width = window.screen.width;
-console.log("width", width)
+
 const useStyles = makeStyles(
     {
         track: {
@@ -48,7 +48,7 @@ const useStyles = makeStyles(
 
 const MobileRange = () => {
 
-    const [val2, setVal2] = React.useState([1000, 35000]);
+    const [val2, setVal2] = React.useState([1000, 350000]);
 
     const classes = useStyles();
 
@@ -62,7 +62,7 @@ const MobileRange = () => {
                         classes={classes}
                         step={5}
                         min={1000}
-                        max={35000}
+                        max={350000}
                         value={val2}
                         onChange={(ev, v) => setVal2(v)}
                         onChangeCommitted={(ev, v) => console.log(v)}
@@ -82,7 +82,16 @@ const MobileRange = () => {
 
                         </div>
                         <div className="col-sm-10 p-0">
-                            <input type="text" value={val2[0]} className="form-control p-2 ps-4" id="inputrange1" />
+                            <form>
+                                <input type="number" value={val2[0]} onChange={(e) => {
+                                    let newArr = [...val2]; // copying the old datas array
+                                    newArr[0] = e.target.value;
+
+                                    setVal2(newArr)
+
+                                }} min={1000} max={350000} className="form-control p-2 ps-4" id="inputrange1" />
+
+                            </form>
                         </div>
 
                     </div>
@@ -97,7 +106,10 @@ const MobileRange = () => {
                         </div>
 
                         <div className="col-sm-10 p-0 ">
-                            <input type="text" value={val2[1]} className="form-control w-100 p-2 ps-4" id="inputrange1" />
+                            <form>
+                                <input type="text" value={val2[1]} className="form-control w-100 p-2 ps-4" id="inputrange1" />
+
+                            </form>
                         </div>
 
                     </div>

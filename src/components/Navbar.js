@@ -47,11 +47,11 @@ const Navbar = () => {
             return post;
         }
     })
-    console.log("finder", finder)
+
     return (
         <>
-            <nav className="navbar navbar-expand-lg " style={{ backgroundColor: "#4958EF", height: "86px" }}>
-                <div className="container-fluid" style={{ maxWidth: "1360px" }}>
+            <nav className="navbar navbar-expand-lg " style={{ backgroundColor: "#4958EF", height: "70px" }}>
+                <div className="container-md" >
 
                     <Link className="navbar-brand" to="/">
                         <img src={Logo} alt="" className="d-inline-block align-text-top" style={{ width: "130px", height: "42px" }} />
@@ -64,13 +64,14 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <div className=" position-relative  " >
                                     <div>
-                                        <input type="text" className="form-control  ps-4" onChange={(e) => setQuery(e.target.value)} style={{ width: "718px", height: "46px", borderRadius: `50px 50px ${finder.length > 0 ? '0px 0px' : '50px 50px'} ` }} aria-label="Search Your Phone.." />
+                                        <input type="text" className="form-control  ps-4" onChange={(e) => setQuery(e.target.value)} style={{ width: "518px", height: "40px", borderRadius: `50px 50px ${finder.length > 0 ? '0px 0px' : '50px 50px'} ` }} aria-label="Search Your Phone.." />
 
                                     </div>
-                                    {finder.length > 0 && <div className='bg-body shadow-md ' style={{
+                                    {finder.length > 0 && <div className='bg-body shadow ' style={{
                                         position: "absolute",
                                         width: "100%",
                                         marginTop: "-2px",
+                                        borderRadius: "4px 0px 4px 4px",
                                         zIndex: 1
                                     }}>
                                         <div class="list-group">
@@ -82,14 +83,14 @@ const Navbar = () => {
                                         </div>
                                     </div>}
                                     <div className='position-absolute right-0 ' style={{ top: "0px" }}>
-                                        <span className="input-group-text   justify-content-center  text-center border-0" style={{ width: "168px", height: "46px", borderRadius: `0px 50px ${finder.length > 0 ? '0px' : '50px'}  0px`, fontSize: "18px", fontWeight: 'bold' }}>
-                                            <img src={SearchIcon} className="me-3" alt="SearchIcon " width={18} height={18} /> Search</span>
+                                        <span className="input-group-text   justify-content-center  text-center border-0" style={{ width: "150px", height: "39px", borderRadius: `0px 50px ${finder.length > 0 ? '0px' : '50px'}  0px`, fontSize: "16px", fontWeight: 'bold' }}>
+                                            <img src={SearchIcon} className="me-3" alt="SearchIcon " width={15} height={15} /> Search</span>
                                     </div>
 
 
                                 </div>
                             </li>
-                            <li className="nav-item   dropdown ms-3 me-4 px-1 d-flex justify-content-between rounded-pill bg-white align-items-center" style={{ width: "188px", height: "46px", fontSize: "18px" }}>
+                            <li className="nav-item   dropdown ms-3 me-4 px-1 d-flex justify-content-between rounded-pill bg-white align-items-center" style={{ width: "188px", height: "40px", fontSize: "18px" }}>
                                 <img src={DD === 'Pakistan' ? PakIcon : DD === 'India' ? IndiaIcon : DD === 'USA' ? USAIcon : ""} alt="PakIcon" width={24} height={18} />
                                 <span className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     {DD}

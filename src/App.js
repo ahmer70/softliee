@@ -28,8 +28,8 @@ function App() {
 
 
       <Router >
-        <div>
-          <div className='tablet-mode'>
+        <div className=''>
+          <div className='tablet-mode '>
             <Navbar />
 
             <SubNav />
@@ -42,11 +42,11 @@ function App() {
           </div>
 
           <HomePage />
-          <Routes>
+          {/* <Routes>
             <Route exact path="/" element={<HomePage />} />
             <Route exact path="/product_page" element={<ProductPage />} />
 
-          </Routes>
+          </Routes> */}
 
 
           <div className='' style={{ backgroundColor: "black" }}>

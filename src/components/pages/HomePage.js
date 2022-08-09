@@ -11,43 +11,43 @@ import Adpalcement from '../../layout/Adpalcement';
 
 
 const HomePage = () => {
-    
+
     let width = window.screen.width
 
 
     return (
         <div>
 
-            <div className='mx-auto mt-2' style={{ maxWidth: "1360px", maxHeight: "790px" }}>
+            <div className='mx-auto mt-2 container-md' style={{ maxHeight: "790px" }}>
                 <Slider />
                 <div className='row mb-mragin   ' >
                     <div className='col-lg-6 col-12 mb-padding' >
                         <FindMobile />
                     </div>
-                    <div className='col-md-6  tablet-mode col-12 position-relative'  >
+                    <div className='col-md-6  m-0 p-0 tablet-mode col-12 position-relative'  >
                         <div className='position-absolute' style={{ right: "-23px" }}>
-
+                            <Brand />
                         </div>
-                        <Brand />
+
                     </div>
 
                 </div>
             </div>
-            
 
-            {width>500&&<Adpalcement />}
-            <div className='mx-auto mt-2' style={{ maxWidth: "1360px" }}>
+
+            {width > 500 && <Adpalcement />}
+            <div className='mx-auto mt-2 container-md' >
                 <LatestMobile />
 
             </div>
             <Adpalcement />
-            <div className='mx-auto mt-2' style={{ maxWidth: "1360px" }}>
+            <div className='mx-auto mt-2 container-md' >
 
                 <PopularMobiles />
                 <PopularComparision />
             </div>
-
-            <div className='mx-auto mt-2' style={{ maxWidth: "1360px" }}>
+            <Adpalcement />
+            <div className='mx-auto mt-2 container-md' >
 
                 <TechNews />
 

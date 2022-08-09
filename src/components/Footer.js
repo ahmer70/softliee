@@ -20,7 +20,7 @@ const Footer = () => {
                             <p className="text-white">Softliee is an online mobile phone web where you can discover latest and updated mobile prices in Pakistan. Softliee team tries to share proper features and specifications along with mobile prices in Pakistan.</p>
                         </div>
                         <div className='footer-menu fb ' >
-                            <div className=" mb-3 Softliee-f   " >
+                            <div className=" mb-3 Softliee-f mobile-mode  " >
                                 <h5 >Softliee</h5>
                                 <ul className="nav flex-column">
                                     <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 ">Our Blog</Link></li>
@@ -50,7 +50,16 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             </div>
-
+                            <div className=" mb-3 Softliee-f  mobile-mode-on2 " >
+                                <h5 >Softliee</h5>
+                                <ul className="nav flex-column">
+                                    <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 ">Our Blog</Link></li>
+                                    <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 ">Contact Us</Link></li>
+                                    <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 ">Advertise with us</Link></li>
+                                    <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 ">Privacy Policy</Link></li>
+                                    <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 ">Terms & Conditions</Link></li>
+                                </ul>
+                            </div>
                             <div className=" Sections-f tablet-mode ">
                                 <h5>Sections</h5>
                                 <ul className="nav flex-column">
